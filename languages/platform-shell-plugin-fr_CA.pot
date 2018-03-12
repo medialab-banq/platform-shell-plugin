@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plateforme médialab BAnQ 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-09 22:18:22+00:00\n"
+"POT-Creation-Date: 2018-03-12 18:05:04+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -46,6 +46,25 @@ msgstr ""
 msgid "http://www.banq.qc.ca"
 msgstr ""
 
+#: platform-shell-plugin.php:107
+msgctxt "startup-error"
+msgid "L’extension ne supporte pas le mode multisite de WordPress."
+msgstr ""
+
+#: platform-shell-plugin.php:124
+msgctxt "startup-error"
+msgid ""
+"Installation incomplète à partir des sources. L’installation des "
+"dépendances Composer (https://getcomposer.org/) est requise."
+msgstr ""
+
+#: platform-shell-plugin.php:148
+msgctxt "startup-error"
+msgid ""
+"Le thème « Plateforme médialab BAnQ » est requis. Veuiller installer et "
+"activer ce thème."
+msgstr ""
+
 #: src/lib/wordpress-settings-api-class-master/src/class-settings-api.php:168
 msgctxt "class.settings-api"
 msgid "Vous n’avez pas les droits nécessaires pour modifier cette option."
@@ -67,53 +86,53 @@ msgctxt "leaflet-openstreetmap-attribution"
 msgid "et ses contributeurs"
 msgstr ""
 
-#: src/platform-shell/class-main.php:339
+#: src/platform-shell/class-main.php:327
 msgctxt "coauthor_default_text"
 msgid "Saisissez les premières lettres d’un pseudonyme"
 msgstr ""
 
-#: src/platform-shell/class-main.php:414
+#: src/platform-shell/class-main.php:402
 msgctxt "common-frontend_js"
 msgid "Tu dois choisir une option."
 msgstr ""
 
-#: src/platform-shell/class-main.php:432
+#: src/platform-shell/class-main.php:420
 msgctxt "form-project-frontend-string"
 msgid "Tu dois entrer un format d’image valide."
 msgstr ""
 
-#: src/platform-shell/class-main.php:433
+#: src/platform-shell/class-main.php:421
 msgctxt "form-project-frontend-string"
 msgid ""
 "Pour créer ou modifier ton projet, tu dois accepter les règlements en "
 "cochant la case ci-dessus."
 msgstr ""
 
-#: src/platform-shell/class-main.php:434
+#: src/platform-shell/class-main.php:422
 msgctxt "form-project-frontend-string"
 msgid ""
 "Une erreur indéterminée est survenue; recommence svp. <br/>Si le problème "
 "persiste, n’hésite pas à nous contacter."
 msgstr ""
 
-#: src/platform-shell/class-main.php:448
+#: src/platform-shell/class-main.php:436
 msgctxt "form-profile-frontend-string"
 msgid "Erreur indéterminée lors de la sauvegarde du profil."
 msgstr ""
 
-#: src/platform-shell/class-main.php:449
+#: src/platform-shell/class-main.php:437
 msgctxt "form-profile-frontend-string"
 msgid ""
 "Pour modifier ton profil, tu dois accepter les règlements en cochant la "
 "case ci-dessus."
 msgstr ""
 
-#: src/platform-shell/class-main.php:463
+#: src/platform-shell/class-main.php:451
 msgctxt "form-contest-frontend-string"
 msgid "Tu dois choisir un de tes projets."
 msgstr ""
 
-#: src/platform-shell/class-main.php:464
+#: src/platform-shell/class-main.php:452
 msgctxt "form-contest-frontend-string"
 msgid ""
 "Pour inscrire ton projet au concours, tu dois accepter les règlements en "
@@ -429,7 +448,7 @@ msgid ""
 "modifié. Veuillez plutôt modifier le pseudonyme."
 msgstr ""
 
-#: src/platform-shell/core-functions.php:281
+#: src/platform-shell/core-functions.php:286
 #: src/platform-shell/settings/class-plugin-settings.php:102
 msgctxt "settings-default"
 msgid "Ton dossier ne contient pas d’adresse de courriel."
@@ -509,108 +528,108 @@ msgid ""
 "modifier à votre choix."
 msgstr ""
 
-#: src/platform-shell/core-functions.php:330
+#: src/platform-shell/core-functions.php:335
 #. translators: %1$s: date
 msgctxt "cpt-contest-subscription"
 msgid "Le concours débute le %1$s."
 msgstr ""
 
-#: src/platform-shell/core-functions.php:338
+#: src/platform-shell/core-functions.php:343
 msgctxt "cpt-contest-subscription"
 msgid "Participer"
 msgstr ""
 
-#: src/platform-shell/core-functions.php:354
+#: src/platform-shell/core-functions.php:359
 msgctxt "cpt-contest-subscription"
 msgid "Voir les lauréats"
 msgstr ""
 
-#: src/platform-shell/core-functions.php:426
+#: src/platform-shell/core-functions.php:431
 #. translators: %1$s: Titre du concours.
 msgctxt "cpt-contest-subscription"
 msgid "Participer au concours « %1$s »."
 msgstr ""
 
-#: src/platform-shell/core-functions.php:435
+#: src/platform-shell/core-functions.php:440
 msgctxt "cpt-contest-subscription-modal-form"
 msgid "Tu dois être connecté afin de pouvoir t’inscrire au concours."
 msgstr ""
 
-#: src/platform-shell/core-functions.php:438
+#: src/platform-shell/core-functions.php:443
 #. translators: %1$s: Lien vers le login.
 msgctxt "cpt-contest-subscription-modal-form"
 msgid "Tu peux le faire en <a href=\"%1$s\" >cliquant ici.</a> "
 msgstr ""
 
-#: src/platform-shell/core-functions.php:454
+#: src/platform-shell/core-functions.php:459
 msgctxt "cpt-contest-subscription-modal-form"
 msgid "Liste de mes projets"
 msgstr ""
 
-#: src/platform-shell/core-functions.php:457
+#: src/platform-shell/core-functions.php:462
 msgctxt "cpt-contest-subscription-modal-form"
 msgid "Choisir un de mes projets"
 msgstr ""
 
-#: src/platform-shell/core-functions.php:464
+#: src/platform-shell/core-functions.php:469
 msgctxt "cpt-contest-subscription-modal-form"
 msgid ""
 "Pour participer au concours, tu dois créer un projet que tu pourras ensuite "
 "utiliser pour compléter ton inscription."
 msgstr ""
 
-#: src/platform-shell/core-functions.php:468
+#: src/platform-shell/core-functions.php:473
 msgctxt "cpt-contest-subscription-modal-form"
 msgid "Créer un projet"
 msgstr ""
 
-#: src/platform-shell/core-functions.php:474
+#: src/platform-shell/core-functions.php:479
 msgctxt "cpt-contest-subscription-modal-form"
 msgid "Les administrateurs et gestionnaires ne peuvent pas s’inscrire aux concours."
 msgstr ""
 
-#: src/platform-shell/core-functions.php:482
+#: src/platform-shell/core-functions.php:487
 msgctxt "cpt-contest-subscription-modal-form"
 msgid "Inscrire mon projet au concours"
 msgstr ""
 
-#: src/platform-shell/core-functions.php:491
+#: src/platform-shell/core-functions.php:496
 msgctxt "cpt-contest-subscription-modal-form"
 msgid "Fermer"
 msgstr ""
 
-#: src/platform-shell/core-functions.php:507
+#: src/platform-shell/core-functions.php:512
 msgctxt "cpt-contest-subscription-modal-form-rules"
 msgid "Règlements"
 msgstr ""
 
-#: src/platform-shell/core-functions.php:513
+#: src/platform-shell/core-functions.php:518
 msgctxt "cpt-contest-subscription-modal-form-rules"
 msgid "J’accepte."
 msgstr ""
 
-#: src/platform-shell/core-functions.php:588
+#: src/platform-shell/core-functions.php:593
 msgctxt "core-functions"
 msgid "Il n’y a pas de projet inscrit à ce concours."
 msgstr ""
 
-#: src/platform-shell/core-functions.php:638
+#: src/platform-shell/core-functions.php:643
 msgctxt "core-functions"
 msgid "Ce projet n’est inscrit à aucun concours pour le moment."
 msgstr ""
 
-#: src/platform-shell/core-functions.php:684
+#: src/platform-shell/core-functions.php:689
 msgctxt "core-functions"
 msgid "Modifier le projet"
 msgstr ""
 
-#: src/platform-shell/core-functions.php:700
+#: src/platform-shell/core-functions.php:705
 #: src/platform-shell/cpt/project/class-project-type.php:282
 msgctxt "cpt-project-rewrite"
 msgid "modifier"
 msgstr ""
 
-#: src/platform-shell/core-functions.php:724
+#: src/platform-shell/core-functions.php:729
 msgctxt "template-project-edit-form"
 msgid "Modifier mon projet"
 msgstr ""
@@ -1960,6 +1979,13 @@ msgstr ""
 #: src/platform-shell/fields/class-fields-helper.php:347
 msgctxt "invalid-field"
 msgid "Ce champ est d'un type non supporté."
+msgstr ""
+
+#: src/platform-shell/installation/class-plugin-install-manager.php:151
+msgctxt "plugin-install-manager"
+msgid ""
+"Le thème « Plateforme médialab BAnQ » est requis. Veuiller installer et "
+"activer ce thème."
 msgstr ""
 
 #: src/platform-shell/installation/class-required-menus-manager.php:160

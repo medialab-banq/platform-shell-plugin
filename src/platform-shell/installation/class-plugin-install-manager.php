@@ -142,10 +142,24 @@ class Plugin_Install_Manager {
 	}
 
 	/**
+	 * Méthode pour vérifier les préalables à l'installation / activation du plugin.
+	 */
+	private function check_install_requirement() {
+		$theme = wp_get_theme();
+		// L'installation des images démos requiert que le thème soit installé et activé afin de calculer correctement le chemin d'accès aux fichiers.
+		if ( 'Plateforme médialab BAnQ' !== $theme->name && 'Plateforme médialab BAnQ' !== $theme->parent_theme ) {
+			die( _x( 'Le thème « Plateforme médialab BAnQ » est requis. Veuiller installer et activer ce thème.', 'plugin-install-manager', 'platform-shell-plugin' ) );
+		}
+	}
+
+	/**
 	 * Méthode pour gérer l'istallation/activation du plugin.
 	 * cette fonction est appelé après l'Activiation du module dans WordPress
 	 */
 	private function install_plugin() {
+
+		$this->check_install_requirement();
+
 		$this->install_database();
 		$this->required_pages_manager->install();
 		$this->roles_and_capabilities->install();

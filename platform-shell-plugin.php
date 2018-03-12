@@ -47,6 +47,12 @@ $plugin_path           = untrailingslashit( plugin_dir_path( __FILE__ ) );
 $plugin_class_src_path = $plugin_path . DIRECTORY_SEPARATOR . 'src' . DIRECTORY_SEPARATOR;
 $plugin_slug           = plugin_basename( __FILE__ );
 
+// Chargement du fichier de langue. Doit être fait le plus tôt possible afin de pouvoir afficher les message d'erreurs dans la langue active.
+$plugin_base_folder            = basename( $plugin_path );
+$relative_languages_files_path = $plugin_base_folder . '/languages/';
+load_plugin_textdomain( 'platform-shell-plugin', false, $relative_languages_files_path );
+
+
 /**
  * Fonction commun d'affichage de messages d'erreur de validation des pré-requis de fonctionnement du plugin.
  *
@@ -98,9 +104,7 @@ if ( is_multisite() ) {
 	 */
 	function platform_shell_get_multisite_not_supported_message( $display_context ) {
 
-		$message  = '<p>L’extension ne supporte pas le mode multisite de WordPress.</p>';
-		$message .= '<p>The extension does not support WordPress multisite mode.</p>';
-
+		$message = '<p>' . _x( 'L’extension ne supporte pas le mode multisite de WordPress.', 'startup-error', 'platform-shell-plugin' ) . '</p>';
 		platform_shell_plugin_precondition_failed_message( $message, $display_context );
 	}
 
@@ -108,51 +112,16 @@ if ( is_multisite() ) {
 	if ( ! is_admin() ) {
 		// Affichage front-end.
 		platform_shell_get_multisite_not_supported_message( 'frontend' );
-
 		die();
 	} else {
 		// Affichage back-end.
 		add_action( 'admin_notices', 'platform_shell_multisite_not_supported_admin_notice__error' );
 	}
-
-	return;
 }
 
 // Require principaux.
 if ( ! file_exists( $base_plugin_path . 'vendor' ) ) {
-
-	/**
-	 * Fonction platform_shell_missing_composer_dependency_admin_notice__error.
-	 * Cette fonction affiche les messages d'erreurs si des dépendances sont manquantes.
-	 */
-	function platform_shell_missing_composer_dependency_admin_notice__error() {
-		platform_shell_get_missing_composer_message( 'backend' );
-	}
-
-	/**
-	 * Fonction platform_shell_get_missing_composer_message.
-	 * Cette fonction affiche des messages d'erreurs si les dépendances Composer ne sont pas installées.
-	 *
-	 * @param string $display_context    frontend / backend.
-	 */
-	function platform_shell_get_missing_composer_message( $display_context ) {
-
-		$message  = '<p>Installation incomplète à partir des sources. L’installation des dépendances Composer (https://getcomposer.org/) est requise.</p>';
-		$message .= '<p>Incomplete installation from sources. Installation of composer dependency is required (https://getcomposer.org/).</p>';
-
-		platform_shell_plugin_precondition_failed_message( $message, $display_context );
-	}
-
-	/* PAS DE LOCALISATION. LES FICHIERS NE SONT PAS ENCORE CHARGÉS. */
-	if ( ! is_admin() ) {
-		// Affichage front-end.
-		platform_shell_get_missing_composer_message( 'frontend' );
-		die();
-	} else {
-		// Affichage back-end.
-		add_action( 'admin_notices', 'platform_shell_missing_composer_dependency_admin_notice__error' );
-	}
-	return;
+	die( _x( 'Installation incomplète à partir des sources. L’installation des dépendances Composer (https://getcomposer.org/) est requise.', 'startup-error', 'platform-shell-plugin' ) );
 }
 
 // Require Theme.
@@ -176,10 +145,7 @@ if ( 'Plateforme médialab BAnQ' !== $theme->name && 'Plateforme médialab BAnQ'
 	 * @param string $display_context    frontend / backend.
 	 */
 	function platform_shell_get_missing_theme_message( $display_context ) {
-
-		$message  = '<p>Le thème « Plateforme médialab BAnQ » est requis. Veuiller installer et activer ce thème.</p>';
-		$message .= '<p>The "Plateform médialab BAnQ" theme is required. Please install and activate this theme.</p>';
-
+		$message = '<p>' . _x( 'Le thème « Plateforme médialab BAnQ » est requis. Veuiller installer et activer ce thème.', 'startup-error', 'platform-shell-plugin' ) . '</p>';
 		platform_shell_plugin_precondition_failed_message( $message, $display_context );
 	}
 
@@ -192,8 +158,6 @@ if ( 'Plateforme médialab BAnQ' !== $theme->name && 'Plateforme médialab BAnQ'
 		// Affichage back-end.
 		add_action( 'admin_notices', 'platform_shell_missing_theme_dependency_admin_notice_error' );
 	}
-
-	return;
 }
 
 // Vérification de mise à jour.

@@ -223,8 +223,6 @@ class Main {
 	 * Méthode plugin_install
 	 */
 	public function plugin_install() {
-		// Dépendances (le init principal n'est pas exécuté lors de l'activation.
-		$this->load_plugin_textdomain(); /* Important: Pour installation des pages dans la bonne langue. */
 		$this->plugin_execute_installer_instruction( $this->plugin_install_instruction->install );
 	}
 
@@ -248,17 +246,7 @@ class Main {
 	 * Méthode init
 	 */
 	public function init() {
-		$this->load_plugin_textdomain();
 		$this->run_required_init();
-	}
-
-	/**
-	 * Méthode load_plugin_textdomain
-	 */
-	public function load_plugin_textdomain() {
-		$plugin_base_folder            = basename( $this->plugin_path );
-		$relative_languages_files_path = $plugin_base_folder . '/languages/';
-		load_plugin_textdomain( 'platform-shell-plugin', false, $relative_languages_files_path );
 	}
 
 	/**

@@ -48,6 +48,11 @@ if ( ! function_exists( 'platform_shell_get_file_version' ) ) {
  */
 function custom_pre_get_posts_query( $query ) {
 
+	// Dépendance thème.
+	if ( ! function_exists( 'platform_shell_theme_get_post_per_page_for_list' ) || ! function_exists( 'platform_shell_theme_get_post_per_page_for_tiles' ) ) {
+		return;
+	}
+
 	if ( $query->is_search() || $query->is_author() || $query->is_tax( 'platform_shell_tax_proj_cat' ) ) {
 		// Patch. Il faudrait revoir la gestion des query pour éviter les effets de bord.
 		// Dans ce cas, les custom query sont écrasées par les handler global qui devrait en principe
