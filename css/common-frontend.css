@@ -1,0 +1,136 @@
+/* create project  page */
+#add-file-upload {
+    margin: 12px 0;
+}
+
+input[type="file"].repeatable {
+    display: inline-block;
+}
+
+span a.remove-row {
+
+    margin: 0 10px ;
+    width:30px ;
+}
+div#files div.row {
+    margin: 12px 0 ;
+}
+
+label.error {
+    margin-left: 20px;
+    color: red;
+
+}
+div.featured_image {
+    margin: 20px 0 40px 0;
+}
+
+div.repeatable-wrapper {}
+div.gallery-wrapper {}
+div.repeatable_image {overflow:hidden;}
+div.repeatable_image img {float:left; margin:0 10px 10px 0}
+
+/* WWWWWWWWWWW FORMULAIRE WWWWWWWWWWW */
+.platform_shell_form {color:#686868}
+.platform_shell_form label {display:block; padding:3px 0 0 0;}
+.platform_shell_form input[type=text] {width:100%;padding:5px 10px;border:2px solid #eaeaea;border-radius:3px;}
+.platform_shell_form select {width:100%; padding:5px; border:2px solid #eaeaea; border-radius:3px}
+.form-row {clear:both; margin:10px 0;  /*padding:10px 0;*/}
+p.input-desc {font-size:12px}
+.platform_shell_form .row {clear:right;}
+.platform_shell_form input[type=file] {margin-left:30px}
+.platform_shell_form textarea {width:100%; padding:5px; border:2px solid #eaeaea; border-radius:3px; min-height:120px;}
+.remove-row {display:inline-block;padding-top:5px; position:absolute; left:10px; }
+#platform_shell_profile_tags {font-weight:bold}
+.required {color:#f00; font-weight:bolder;}
+
+/*  div pour les reglements - participer a un concours  */
+#modaliteInfo {
+    border: 1px solid #dee1e3;
+    margin-left: 20px;
+    width: 90%;
+    height: 100px;
+    overflow: auto;
+}
+
+/*
+   Patch affichage tinyMCE WordPress dans formulaire. Le dialogue d'édition de lien n'est pas 100% compatible avec notre besoin
+   et l'affichage ne peut pas être modifié facilement. Solution compromis avec css = masquer
+   la partie du dialogue qui pose problème (sélection de pages) + corriger affichage du bouton fermer.
+*/
+
+#wp-link-wrap #wplink-link-existing-content {
+    display:none;   
+}
+
+#wp-link-wrap #search-panel {
+    display:none;   
+}
+
+#wp-link-wrap .screen-reader-text {
+    visibility: hidden;
+}
+
+.select2-container {
+    width: 100%;
+}
+
+.select2-container--default .select2-selection--multiple {
+    width: 100%;
+    padding: 0 5px;
+    border: 2px solid #eaeaea;
+    border-radius: 3px;
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    background-color: #d5d0d0;
+    background-image: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid #eaeaea;
+    outline-offset: -2px;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.select2-container--open .select2-dropdown {
+    background-color: #d5d0d0;
+    background-image: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid #7a9cd3;
+    border-radius: 0px;
+}
+
+.select2-container--default .select2-results>.select2-results__options>.select2-results__option {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered li.select2-selection__choice {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+label.main_creator {
+    color: #686868;
+    margin: 0;
+    padding: 0;
+}
+
+h3.main_creator {
+    margin-top: 10px;
+}
+
+.platform_shell_creator p.avatar_platform_shell {
+    white-space:nowrap;
+    margin-top: -5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 768px) {
+    .project_modify_button .btnSquare {
+        width:100%;
+        text-align:center;
+    }
+}

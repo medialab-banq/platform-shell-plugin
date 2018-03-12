@@ -1,0 +1,82 @@
+fieldset {
+    border: 1px solid #999;
+    padding: 20px 5px;
+}
+
+label {
+    margin: 4px 0 2px 0;
+    display: block;
+    font-weight: bold;
+}
+
+#titlediv #title-prompt-text {
+    margin:0;
+    font-weight: normal;
+}
+
+.ui-dialog-titlebar-close:before {
+	line-height: initial;
+}
+
+#platform-shell-contest-projects ul {
+	list-style-type: none;
+    margin: 10px 0 20px 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#platform-shell-contest-projects ul li {
+	float: left;
+    width: 140px;
+    height: 140px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+#platform-shell-contest-projects ul li a {
+	display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#platform-shell-contest-projects ul li a:link {
+	color: #c74800;
+}
+
+#platform-shell-contest-projects ul li a span.fondDegrad {
+    background-image: url(images/degradePhoto.png);
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    background-size: 1px 100%;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+}
+
+#platform-shell-contest-projects ul li a span.fondDegrad .tuileZoneTexte {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    overflow: hidden;
+	font-size: 11px;
+    line-height: 14px;
+    padding: 0 5px 3px 5px;
+}
+
+#platform-shell-contest-projects ul li a span.fondDegrad .tuileZoneTexte .tuileTitre {
+	display: block;
+    font-weight: bold;
+    line-height: 17px /*Ã€ valider */;
+    max-height: 120px;
+    overflow: hidden;
+    margin: 0!important;
+	font-size: 12px!important;
+}

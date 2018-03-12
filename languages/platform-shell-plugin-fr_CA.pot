@@ -1,0 +1,3287 @@
+# Copyright (C) 2018 Bibliothèque et Archives nationales du Québec (BAnQ)
+# This file is distributed under the GNU General Public License v2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plateforme médialab BAnQ 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-09 22:18:22+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: fr_CA\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: Canada\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#. Plugin Name of the plugin/theme
+msgid "Plateforme médialab BAnQ"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/medialab-banq/platform-shell-plugin/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Extension WordPress permettant de créer une plateforme de médialab "
+"collaborative."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Bibliothèque et Archives nationales du Québec (BAnQ)"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.banq.qc.ca"
+msgstr ""
+
+#: src/lib/wordpress-settings-api-class-master/src/class-settings-api.php:168
+msgctxt "class.settings-api"
+msgid "Vous n’avez pas les droits nécessaires pour modifier cette option."
+msgstr ""
+
+#: src/lib/wordpress-settings-api-class-master/src/class-settings-api.php:396
+msgctxt "class.settings-api"
+msgid "Choisir un fichier"
+msgstr ""
+
+#: src/platform-shell/admin/class-admin.php:132
+#: src/platform-shell/templates/fields/footer-background-field.php:17
+msgctxt "option-generate-background"
+msgid "Générer une image de fond"
+msgstr ""
+
+#: src/platform-shell/admin/class-admin.php:136
+msgctxt "leaflet-openstreetmap-attribution"
+msgid "et ses contributeurs"
+msgstr ""
+
+#: src/platform-shell/class-main.php:339
+msgctxt "coauthor_default_text"
+msgid "Saisissez les premières lettres d’un pseudonyme"
+msgstr ""
+
+#: src/platform-shell/class-main.php:414
+msgctxt "common-frontend_js"
+msgid "Tu dois choisir une option."
+msgstr ""
+
+#: src/platform-shell/class-main.php:432
+msgctxt "form-project-frontend-string"
+msgid "Tu dois entrer un format d’image valide."
+msgstr ""
+
+#: src/platform-shell/class-main.php:433
+msgctxt "form-project-frontend-string"
+msgid ""
+"Pour créer ou modifier ton projet, tu dois accepter les règlements en "
+"cochant la case ci-dessus."
+msgstr ""
+
+#: src/platform-shell/class-main.php:434
+msgctxt "form-project-frontend-string"
+msgid ""
+"Une erreur indéterminée est survenue; recommence svp. <br/>Si le problème "
+"persiste, n’hésite pas à nous contacter."
+msgstr ""
+
+#: src/platform-shell/class-main.php:448
+msgctxt "form-profile-frontend-string"
+msgid "Erreur indéterminée lors de la sauvegarde du profil."
+msgstr ""
+
+#: src/platform-shell/class-main.php:449
+msgctxt "form-profile-frontend-string"
+msgid ""
+"Pour modifier ton profil, tu dois accepter les règlements en cochant la "
+"case ci-dessus."
+msgstr ""
+
+#: src/platform-shell/class-main.php:463
+msgctxt "form-contest-frontend-string"
+msgid "Tu dois choisir un de tes projets."
+msgstr ""
+
+#: src/platform-shell/class-main.php:464
+msgctxt "form-contest-frontend-string"
+msgid ""
+"Pour inscrire ton projet au concours, tu dois accepter les règlements en "
+"cochant la case ci-dessus."
+msgstr ""
+
+#: src/platform-shell/class-profile.php:70
+msgctxt "profile"
+msgid "profil"
+msgstr ""
+
+#: src/platform-shell/class-profile.php:104
+msgctxt "profile-admin-notice-warning"
+msgid ""
+"<stong>Attention : </stong> Ce compte a été créé avec l’extension’ "
+"Shibboleth.<br/>Certains champs sont synchronisés automatiquement lorsque "
+"l’utilisateur se connecte, d’autres ne sont pas utilisés dans le profil "
+"spécial de la plateforme.<br/>Le profil du tableau de bord de WordPress "
+"n’est jamais présenté aux utilisateurs.<br/>Le pseudonyme pourrait être "
+"modifié par un administrateur mais l’utilisateur sera toujours en mesure de "
+"le modifier par la suite."
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:121
+#. translators: %s: Date courante.
+msgctxt "profile-admin-notice-warning"
+msgid ""
+"Veuillez vérifier que l’heure actuelle correspond à celle configurée sur le "
+"serveur afin que la détermination du moment du début et de la fin du "
+"concours soit correcte. Heure configurée sur le serveur : %1$s."
+msgstr ""
+
+#: src/platform-shell/fields/class-fields-helper.php:107
+#. translators: %1$s: Nom du champs
+msgctxt "profile-admin-notice-warning"
+msgid ""
+" - Erreur : ( <strong>%1$s</strong> ) Aucunes valeurs disponibles pour "
+"l’affichage de la liste. Veuillez vérifier les configurations de la "
+"plateforme."
+msgstr ""
+
+#: src/platform-shell/fields/class-fields-helper.php:109
+msgctxt "profile-admin-notice-warning"
+msgid ""
+"Erreur : Aucunes valeurs disponibles pour l’affichage de la liste. Veuillez "
+"vérifier les configurations de la plateforme."
+msgstr ""
+
+#: src/platform-shell/fields/class-fields-helper.php:116
+#. translators: %1$s: Nom du champs, %2$s: Valeur actuelle
+msgctxt "profile-admin-notice-warning"
+msgid ""
+" - Attention : ( <strong>%1$s</strong> ) La valeur « %2$s » n’est pas "
+"définie dans la liste des valeurs connues et a été ajoutée automatiquement "
+"à la liste des choix disponibles."
+msgstr ""
+
+#: src/platform-shell/class-profile.php:167
+#: src/platform-shell/class-profile.php:169
+msgctxt "profile-tags-taxonomy-admin"
+msgid "Mots-clés"
+msgstr ""
+
+#: src/platform-shell/class-profile.php:168
+msgctxt "profile-tags-taxonomy-admin"
+msgid "Mot-clé"
+msgstr ""
+
+#: src/platform-shell/class-profile.php:170
+msgctxt "profile-tags-taxonomy-admin"
+msgid "Chercher parmi les mots-clés"
+msgstr ""
+
+#: src/platform-shell/class-profile.php:171
+msgctxt "profile-tags-taxonomy-admin"
+msgid "Mots-clés populaires"
+msgstr ""
+
+#: src/platform-shell/class-profile.php:172
+msgctxt "profile-tags-taxonomy-admin"
+msgid "Tous les mots-clés"
+msgstr ""
+
+#: src/platform-shell/class-profile.php:173
+msgctxt "profile-tags-taxonomy-admin"
+msgid "Modifier les mots-clés"
+msgstr ""
+
+#: src/platform-shell/class-profile.php:174
+msgctxt "profile-tags-taxonomy-admin"
+msgid "Mettre à jour les mots-clés"
+msgstr ""
+
+#: src/platform-shell/class-profile.php:175
+msgctxt "profile-tags-taxonomy-admin"
+msgid "Ajouter un mot-clé"
+msgstr ""
+
+#: src/platform-shell/class-profile.php:176
+msgctxt "profile-tags-taxonomy-admin"
+msgid "Nouveau nom de mot-clé"
+msgstr ""
+
+#: src/platform-shell/class-profile.php:177
+msgctxt "profile-tags-taxonomy-admin"
+msgid "Séparer les mots-clés avec des virgules"
+msgstr ""
+
+#: src/platform-shell/class-profile.php:178
+msgctxt "profile-tags-taxonomy-admin"
+msgid "Ajouter ou enlever des mots-clés"
+msgstr ""
+
+#: src/platform-shell/class-profile.php:179
+msgctxt "profile-tags-taxonomy-admin"
+msgid "Choisir parmi les mots-clés populaires"
+msgstr ""
+
+#: src/platform-shell/class-profile.php:237
+msgctxt "profile-tags-taxonomy-admin"
+msgid "Utilisateurs"
+msgstr ""
+
+#: src/platform-shell/class-profile.php:562
+#. translators: %1$s: Pseudonyme de l'utilisateur
+msgctxt "profile-title"
+msgid "Profil de %1$s"
+msgstr ""
+
+#: src/platform-shell/class-profile.php:572
+msgctxt "profile-title"
+msgid "Mon profil"
+msgstr ""
+
+#: src/platform-shell/class-profile.php:583
+msgctxt "profile-title"
+msgid "Modification du profil"
+msgstr ""
+
+#: src/platform-shell/class-profile.php:624
+msgctxt "profile-nickname-change-validation"
+msgid "Il faut inscrire un pseudonyme."
+msgstr ""
+
+#: src/platform-shell/class-profile.php:629
+#: src/platform-shell/class-profile.php:702
+#. translators: %1$s: Pseudonyme
+#. translators: %1$s: pseudonyme
+msgctxt "profile-nickname-change-validation"
+msgid "Le pseudonyme %1$s est déjà utilisé. SVP choisis-en un autre."
+msgstr ""
+
+#: src/platform-shell/class-profile.php:633
+msgctxt "profile-nickname-change-validation"
+msgid "Le pseudonyme contient des caractères interdits."
+msgstr ""
+
+#: src/platform-shell/class-profile.php:713
+#. translators: %1$s: Nombre de caractères pour le pseudonyme.
+msgctxt "profile-nickname-change-validation"
+msgid "Le pseudonyme ne peut contenir plus de %1$s caractères."
+msgstr ""
+
+#: src/platform-shell/class-profile.php:720
+msgctxt "profile-nickname-change-validation"
+msgid "Le champs Pseudonyme ne peut pas être vide."
+msgstr ""
+
+#: src/platform-shell/class-profile.php:732
+#. translators: %1$s: Nombre de caractères pour le pseudonyme.
+msgctxt "profile-nickname-change-validation"
+msgid "Le champs Pseudonyme doit contenir au moins %1$s caractères."
+msgstr ""
+
+#: src/platform-shell/class-profile.php:656
+msgctxt "profile-save-developper-error"
+msgid "Paramètres invalides dans platform_shell_edit_profile_handler"
+msgstr ""
+
+#: src/platform-shell/class-profile.php:758
+msgctxt "profile-validate-developper-error"
+msgid "Erreur indéterminée dans wp_update_user."
+msgstr ""
+
+#: src/platform-shell/class-profile.php:765
+msgctxt "profile-save"
+msgid "<strong>Modification du profil : </strong> Ton profil a été modifié."
+msgstr ""
+
+#: src/platform-shell/class-profile.php:770
+msgctxt "profile-save"
+msgid "<strong> - </strong> Certains caractères ont été enlevés de ton pseudonyme."
+msgstr ""
+
+#: src/platform-shell/class-profile.php:781
+msgctxt "profile-save"
+msgid ""
+"<strong>Modification du profil : </strong> Les changements n’ont pas été "
+"sauvegardés. Un problème technique est survenu."
+msgstr ""
+
+#: src/platform-shell/class-profile.php:811
+msgctxt "profile-edit-form-fields"
+msgid "Pseudonyme"
+msgstr ""
+
+#: src/platform-shell/class-profile.php:821
+msgctxt "profile-edit-form-fields"
+msgid "Prénom"
+msgstr ""
+
+#: src/platform-shell/class-profile.php:829
+msgctxt "profile-edit-form-fields"
+msgid "Nom"
+msgstr ""
+
+#: src/platform-shell/class-profile.php:837
+msgctxt "profile-edit-form-fields"
+msgid "Courriel"
+msgstr ""
+
+#: src/platform-shell/class-profile.php:845
+msgctxt "profile-edit-form-fields"
+msgid "Mots-clés"
+msgstr ""
+
+#: src/platform-shell/class-profile.php:849
+msgctxt "profile-edit-form-fields"
+msgid "Entre plusieurs mots-clés séparés par des virgules."
+msgstr ""
+
+#: src/platform-shell/class-roles-and-capabilities.php:180
+msgctxt "roles"
+msgid "Utilisateur"
+msgstr ""
+
+#: src/platform-shell/class-roles-and-capabilities.php:195
+msgctxt "roles"
+msgid "Gestionnaire"
+msgstr ""
+
+#: src/platform-shell/class-uploadhelper.php:116
+#. translators: %1$s: Nom du fichier
+msgctxt "image-upload"
+msgid "%1$s : Le fichier image ne peut pas être vide."
+msgstr ""
+
+#: src/platform-shell/class-uploadhelper.php:128
+#: src/platform-shell/class-uploadhelper.php:244
+#. translators: %1$s: Taille du fichier
+#. translators: %s: Taille du fichier
+msgctxt "image-upload"
+msgid "%1$s : La taille du fichier ne doit pas dépasser %2$s."
+msgstr ""
+
+#: src/platform-shell/class-uploadhelper.php:168
+#: src/platform-shell/class-uploadhelper.php:212
+#. translators: %1$s: Nom du fichier
+msgctxt "image-upload"
+msgid ""
+"%1$s : SVP télécharge une image au format JPEG, PNG ou GIF. Il y a eu un "
+"problème avec l’une des images téléchargées."
+msgstr ""
+
+#: src/platform-shell/class-uploadhelper.php:191
+#. translators: %1$s: Nom du fichier
+msgctxt "image-upload"
+msgid "%1$s : SVP télécharge une image au format JPEG, PNG ou GIF."
+msgstr ""
+
+#: src/platform-shell/class-uploadhelper.php:227
+#. translators: %1$s: Nom du fichier
+msgctxt "image-upload"
+msgid "%1$s : SVP télécharge une image en format JPEG, PNG ou GIF."
+msgstr ""
+
+#: src/platform-shell/class-uploadhelper.php:665
+msgctxt "image-upload"
+msgid "Erreur inconnue dans le processus de téléversement de l’image"
+msgstr ""
+
+#: src/platform-shell/settings/class-plugin-settings.php:274
+msgctxt "image-upload"
+msgid "Référence à du contenu inexistant."
+msgstr ""
+
+#: src/platform-shell/class-uploadhelper.php:592
+msgctxt "octet-suffix-filesize"
+msgid "o"
+msgstr ""
+
+#: src/platform-shell/class-users.php:147
+msgctxt "unauthorized_user_search"
+msgid "Vous n’êtes pas autorisé à rechercher les utilisateurs."
+msgstr ""
+
+#: src/platform-shell/class-users.php:196
+#. translators: %1$s: pseudonyme
+msgctxt "users"
+msgid "Le pseudonyme %1$s est déjà utilisé. SVP choisis-en un autre."
+msgstr ""
+
+#: src/platform-shell/class-users.php:198
+#. translators: %1$s: message d'erreur
+msgctxt "users"
+msgid "Erreur : %1$s"
+msgstr ""
+
+#: src/platform-shell/class-users.php:287
+msgctxt "users"
+msgid ""
+"<stong>Attention : </stong> Le nom à afficher publiquement ne peut pas être "
+"modifié. Veuillez plutôt modifier le pseudonyme."
+msgstr ""
+
+#: src/platform-shell/core-functions.php:281
+#: src/platform-shell/settings/class-plugin-settings.php:102
+msgctxt "settings-default"
+msgid "Ton dossier ne contient pas d’adresse de courriel."
+msgstr ""
+
+#: src/platform-shell/settings/class-plugin-settings.php:129
+msgctxt "settings-default"
+msgid "Organisateur 1"
+msgstr ""
+
+#: src/platform-shell/settings/class-plugin-settings.php:130
+msgctxt "settings-default"
+msgid "Organisateur 2"
+msgstr ""
+
+#: src/platform-shell/settings/class-plugin-settings.php:140
+msgctxt "settings-default"
+msgid "Texte d’accueil à personnaliser"
+msgstr ""
+
+#: src/platform-shell/settings/class-plugin-settings.php:141
+msgctxt "settings-default"
+msgid "Adresse à personnaliser"
+msgstr ""
+
+#: src/platform-shell/settings/class-plugin-settings.php:142
+msgctxt "settings-default"
+msgid "555 555-5555"
+msgstr ""
+
+#: src/platform-shell/settings/class-plugin-settings.php:143
+msgctxt "settings-default"
+msgid ""
+"(à personnaliser)<br/>Du lundi au vendredi : de 9 h à 17 h.<br/>Le samedi "
+"et le dimanche : de 9 h à 17 h."
+msgstr ""
+
+#: src/platform-shell/settings/class-plugin-settings.php:151
+msgctxt "settings-default"
+msgid "Jeunes (13 à 17 ans)"
+msgstr ""
+
+#: src/platform-shell/settings/class-plugin-settings.php:152
+msgctxt "settings-default"
+msgid "Adultes (18 ans et plus)"
+msgstr ""
+
+#: src/platform-shell/settings/class-plugin-settings.php:153
+msgctxt "settings-default"
+msgid "Tous"
+msgstr ""
+
+#: src/platform-shell/settings/class-plugin-settings.php:165
+msgctxt "settings-default"
+msgid "Bande dessinée"
+msgstr ""
+
+#: src/platform-shell/settings/class-plugin-settings.php:169
+msgctxt "settings-default"
+msgid "Vidéo"
+msgstr ""
+
+#: src/platform-shell/settings/class-plugin-settings.php:173
+msgctxt "settings-default"
+msgid "Audio"
+msgstr ""
+
+#: src/platform-shell/settings/class-plugin-settings.php:177
+msgctxt "settings-default"
+msgid "Concours annuel"
+msgstr ""
+
+#: src/platform-shell/settings/class-plugin-settings.php:314
+msgctxt "settings-default"
+msgid ""
+"Cette bannière a été ajoutée pour fin de démonstration, vous pouvez la "
+"modifier à votre choix."
+msgstr ""
+
+#: src/platform-shell/core-functions.php:330
+#. translators: %1$s: date
+msgctxt "cpt-contest-subscription"
+msgid "Le concours débute le %1$s."
+msgstr ""
+
+#: src/platform-shell/core-functions.php:338
+msgctxt "cpt-contest-subscription"
+msgid "Participer"
+msgstr ""
+
+#: src/platform-shell/core-functions.php:354
+msgctxt "cpt-contest-subscription"
+msgid "Voir les lauréats"
+msgstr ""
+
+#: src/platform-shell/core-functions.php:426
+#. translators: %1$s: Titre du concours.
+msgctxt "cpt-contest-subscription"
+msgid "Participer au concours « %1$s »."
+msgstr ""
+
+#: src/platform-shell/core-functions.php:435
+msgctxt "cpt-contest-subscription-modal-form"
+msgid "Tu dois être connecté afin de pouvoir t’inscrire au concours."
+msgstr ""
+
+#: src/platform-shell/core-functions.php:438
+#. translators: %1$s: Lien vers le login.
+msgctxt "cpt-contest-subscription-modal-form"
+msgid "Tu peux le faire en <a href=\"%1$s\" >cliquant ici.</a> "
+msgstr ""
+
+#: src/platform-shell/core-functions.php:454
+msgctxt "cpt-contest-subscription-modal-form"
+msgid "Liste de mes projets"
+msgstr ""
+
+#: src/platform-shell/core-functions.php:457
+msgctxt "cpt-contest-subscription-modal-form"
+msgid "Choisir un de mes projets"
+msgstr ""
+
+#: src/platform-shell/core-functions.php:464
+msgctxt "cpt-contest-subscription-modal-form"
+msgid ""
+"Pour participer au concours, tu dois créer un projet que tu pourras ensuite "
+"utiliser pour compléter ton inscription."
+msgstr ""
+
+#: src/platform-shell/core-functions.php:468
+msgctxt "cpt-contest-subscription-modal-form"
+msgid "Créer un projet"
+msgstr ""
+
+#: src/platform-shell/core-functions.php:474
+msgctxt "cpt-contest-subscription-modal-form"
+msgid "Les administrateurs et gestionnaires ne peuvent pas s’inscrire aux concours."
+msgstr ""
+
+#: src/platform-shell/core-functions.php:482
+msgctxt "cpt-contest-subscription-modal-form"
+msgid "Inscrire mon projet au concours"
+msgstr ""
+
+#: src/platform-shell/core-functions.php:491
+msgctxt "cpt-contest-subscription-modal-form"
+msgid "Fermer"
+msgstr ""
+
+#: src/platform-shell/core-functions.php:507
+msgctxt "cpt-contest-subscription-modal-form-rules"
+msgid "Règlements"
+msgstr ""
+
+#: src/platform-shell/core-functions.php:513
+msgctxt "cpt-contest-subscription-modal-form-rules"
+msgid "J’accepte."
+msgstr ""
+
+#: src/platform-shell/core-functions.php:588
+msgctxt "core-functions"
+msgid "Il n’y a pas de projet inscrit à ce concours."
+msgstr ""
+
+#: src/platform-shell/core-functions.php:638
+msgctxt "core-functions"
+msgid "Ce projet n’est inscrit à aucun concours pour le moment."
+msgstr ""
+
+#: src/platform-shell/core-functions.php:684
+msgctxt "core-functions"
+msgid "Modifier le projet"
+msgstr ""
+
+#: src/platform-shell/core-functions.php:700
+#: src/platform-shell/cpt/project/class-project-type.php:282
+msgctxt "cpt-project-rewrite"
+msgid "modifier"
+msgstr ""
+
+#: src/platform-shell/core-functions.php:724
+msgctxt "template-project-edit-form"
+msgid "Modifier mon projet"
+msgstr ""
+
+#: src/platform-shell/templates/projects/form-edit-project.php:36
+msgctxt "template-project-edit-form"
+msgid "Enregistrer mon projet"
+msgstr ""
+
+#: src/platform-shell/cpt/activity/class-activity-configs.php:32
+msgctxt "cpt-activity-labels-plural"
+msgid "Activités"
+msgstr ""
+
+#: src/platform-shell/cpt/activity/class-activity-configs.php:33
+msgctxt "cpt-activity-labels-singular"
+msgid "Activité"
+msgstr ""
+
+#: src/platform-shell/cpt/activity/class-activity-configs.php:34
+msgctxt "cpt-activity-labels"
+msgid "Activités"
+msgstr ""
+
+#: src/platform-shell/cpt/activity/class-activity-configs.php:35
+msgctxt "cpt-activity-labels"
+msgid "Activité"
+msgstr ""
+
+#: src/platform-shell/cpt/activity/class-activity-configs.php:36
+msgctxt "cpt-activity-labels"
+msgid "Ajouter"
+msgstr ""
+
+#: src/platform-shell/cpt/activity/class-activity-configs.php:37
+msgctxt "cpt-activity-labels"
+msgid "Ajouter une activité"
+msgstr ""
+
+#: src/platform-shell/cpt/activity/class-activity-configs.php:38
+msgctxt "cpt-activity-labels"
+msgid "Nouvelle activité"
+msgstr ""
+
+#: src/platform-shell/cpt/activity/class-activity-configs.php:39
+msgctxt "cpt-activity-labels"
+msgid "Éditer une fiche activité"
+msgstr ""
+
+#: src/platform-shell/cpt/activity/class-activity-configs.php:40
+msgctxt "cpt-activity-labels"
+msgid "Voir les activités"
+msgstr ""
+
+#: src/platform-shell/cpt/activity/class-activity-configs.php:41
+msgctxt "cpt-activity-labels"
+msgid "Toutes les activités"
+msgstr ""
+
+#: src/platform-shell/cpt/activity/class-activity-configs.php:42
+msgctxt "cpt-activity-labels"
+msgid "Rechercher une activité"
+msgstr ""
+
+#: src/platform-shell/cpt/activity/class-activity-configs.php:43
+msgctxt "cpt-activity-labels"
+msgid "Activité parent"
+msgstr ""
+
+#: src/platform-shell/cpt/activity/class-activity-configs.php:44
+msgctxt "cpt-activity-labels"
+msgid "Activité parent :"
+msgstr ""
+
+#: src/platform-shell/cpt/activity/class-activity-configs.php:45
+msgctxt "cpt-activity-labels"
+msgid "Aucune activité."
+msgstr ""
+
+#: src/platform-shell/cpt/activity/class-activity-configs.php:46
+msgctxt "cpt-activity-labels"
+msgid "Il n’y a aucune activité dans la corbeille."
+msgstr ""
+
+#: src/platform-shell/cpt/activity/class-activity-metaboxes.php:50
+msgctxt "cpt-activity-metaboxes"
+msgid "Information sur l’activité"
+msgstr ""
+
+#: src/platform-shell/cpt/activity/class-activity-type.php:60
+msgctxt "cpt-activity-metaboxes"
+msgid "Admissibilité"
+msgstr ""
+
+#: src/platform-shell/cpt/activity/class-activity-type.php:68
+msgctxt "cpt-activity-metaboxes"
+msgid "Date"
+msgstr ""
+
+#: src/platform-shell/cpt/activity/class-activity-type.php:76
+msgctxt "cpt-activity-metaboxes"
+msgid "Heure de l’activité"
+msgstr ""
+
+#: src/platform-shell/cpt/activity/class-activity-type.php:115
+msgctxt "cpt-activity-description"
+msgid "Activités."
+msgstr ""
+
+#: src/platform-shell/cpt/activity/class-activity-type.php:121
+msgctxt "cpt-activity-slug"
+msgid "activites"
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-configs.php:35
+msgctxt "cpt-banner-labels-plural"
+msgid "Bannières"
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-configs.php:36
+msgctxt "cpt-banner-labels-singular"
+msgid "Bannière"
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-configs.php:37
+msgctxt "cpt-banner-labels"
+msgid "Bannières"
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-configs.php:38
+msgctxt "cpt-banner-labels"
+msgid "Bannière"
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-configs.php:39
+msgctxt "cpt-banner-labels"
+msgid "Ajouter"
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-configs.php:40
+msgctxt "cpt-banner-labels"
+msgid "Ajouter une bannière"
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-configs.php:41
+msgctxt "cpt-banner-labels"
+msgid "Nouvelle bannière"
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-configs.php:42
+msgctxt "cpt-banner-labels"
+msgid "Éditer un bannière"
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-configs.php:43
+msgctxt "cpt-banner-labels"
+msgid "Voir les bannières"
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-configs.php:44
+msgctxt "cpt-banner-labels"
+msgid "Tous les bannières"
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-configs.php:45
+msgctxt "cpt-banner-labels"
+msgid "Rechercher une bannière"
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-configs.php:46
+msgctxt "cpt-banner-labels"
+msgid "Bannière parent"
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-configs.php:47
+msgctxt "cpt-banner-labels"
+msgid "Bannière parent:"
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-configs.php:48
+msgctxt "cpt-banner-labels"
+msgid "Aucune bannière."
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-configs.php:49
+msgctxt "cpt-banner-labels"
+msgid "Aucune bannière dans la corbeille."
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-type.php:57
+msgctxt "cpt-banner-inline-doc"
+msgid "<strong>Configurations des bannières de la plateforme</strong>."
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-type.php:58
+msgctxt "cpt-banner-inline-doc"
+msgid ""
+"1) Ajouter une bannière en utilisant le bouton dans le haut de l’écran ou "
+"modifier les bannières existantes."
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-type.php:59
+msgctxt "cpt-banner-inline-doc"
+msgid ""
+"2) Assigner le titre de la bannière en respectant la nomenclature (voir "
+"plus bas)."
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-type.php:60
+msgctxt "cpt-banner-inline-doc"
+msgid ""
+"3) Assigner une « <strong>Image mise en avant</strong> ». La taille  "
+"recommandée pour les images est de 1400 x 340 pixels pour la bannière « "
+"banner_front_page » et de 1400 x 240 pixels pour les autres."
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-type.php:61
+msgctxt "cpt-banner-inline-doc"
+msgid ""
+"4) Publier ou mettre à jour les changements et valider les changements en "
+"consultant le site."
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-type.php:62
+msgctxt "cpt-banner-inline-doc"
+msgid "Notes supplémentaires :"
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-type.php:63
+msgctxt "cpt-banner-inline-doc"
+msgid ""
+"- Vous pouvez supprimer les bannières inutilisées, mais il est fortement "
+"recommandé de conserver au minimum les bannières « "
+"<strong>banner_front_page</strong> » et « <strong>banner_default</strong> »."
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-type.php:64
+msgctxt "cpt-banner-inline-doc"
+msgid ""
+"- La détection de l’association de bannière se fait dans cet ordre : "
+"banner_post_id_{id numérique}, banner_{type} (post, page, project, etc.), "
+"banner_default."
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-type.php:65
+msgctxt "cpt-banner-inline-doc"
+msgid ""
+"- Une bannière vide est affichée lorsque la plateforme ne trouve pas "
+"d’association valide."
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-type.php:67
+msgctxt "cpt-banner-inline-doc"
+msgid "Nomenclature des titres de bannière à utiliser pour l’association :"
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-type.php:68
+msgctxt "cpt-banner-inline-doc"
+msgid ""
+"<strong>banner_default</strong> : La bannière affichée par défaut lorsqu’il "
+"n’y a pas d’autres associations plus spécifiques."
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-type.php:69
+msgctxt "cpt-banner-inline-doc"
+msgid ""
+"<strong>banner_front_page</strong> : La bannière utilisée spécifiquement "
+"pour la page d’accueil (taille plus grande)."
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-type.php:70
+msgctxt "cpt-banner-inline-doc"
+msgid "<strong>banner_post</strong> : La bannière utilisée pour les articles."
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-type.php:71
+msgctxt "cpt-banner-inline-doc"
+msgid "<strong>banner_page</strong> : La bannière utilisée pour les pages."
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-type.php:72
+msgctxt "cpt-banner-inline-doc"
+msgid "<strong>banner_project</strong> : La bannière utilisée pour les projets."
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-type.php:73
+msgctxt "cpt-banner-inline-doc"
+msgid "<strong>banner_contest</strong> : La bannière utilisée pour les concours. "
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-type.php:74
+msgctxt "cpt-banner-inline-doc"
+msgid "<strong>banner_activity</strong> : La bannière utilisée pour les activités."
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-type.php:75
+msgctxt "cpt-banner-inline-doc"
+msgid ""
+"<strong>banner_tool</strong> : La bannière utilisée pour les outils "
+"numériques."
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-type.php:76
+msgctxt "cpt-banner-inline-doc"
+msgid ""
+"<strong>banner_equipment</strong> : La bannière utilisée pour les "
+"équipements."
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-type.php:109
+msgctxt "cpt-banner-description"
+msgid "Description."
+msgstr ""
+
+#: src/platform-shell/cpt/banner/class-banner-type.php:116
+msgctxt "cpt-banner-slug"
+msgid "bannieres"
+msgstr ""
+
+#: src/platform-shell/cpt/class-cpt-configs.php:86
+msgctxt "cpt-project-field"
+msgid "Publié"
+msgstr ""
+
+#: src/platform-shell/cpt/class-cpt-configs.php:87
+#: src/platform-shell/cpt/class-cpt-configs.php:94
+msgctxt "cpt-project-field"
+msgid "En attente"
+msgstr ""
+
+#: src/platform-shell/cpt/class-cpt-configs.php:88
+msgctxt "cpt-project-field"
+msgid "Projet en modération (visibilité privée)"
+msgstr ""
+
+#: src/platform-shell/cpt/class-cpt-configs.php:92
+#: src/platform-shell/cpt/project/class-project-type.php:473
+#: src/platform-shell/cpt/project/class-project-type.php:480
+msgctxt "cpt-project-field"
+msgid "Choisir une option"
+msgstr ""
+
+#: src/platform-shell/cpt/class-cpt-configs.php:93
+msgctxt "cpt-project-field"
+msgid "Publier"
+msgstr ""
+
+#: src/platform-shell/cpt/class-cpt-configs.php:95
+msgctxt "cpt-project-field"
+msgid "Mettre le projet en modération (visibilité privée)"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:474
+msgctxt "cpt-project-field"
+msgid "Débutant"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:475
+msgctxt "cpt-project-field"
+msgid "Intermédiaire"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:476
+msgctxt "cpt-project-field"
+msgid "Avancé"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:481
+msgctxt "cpt-project-field"
+msgid "Individuelle"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:482
+msgctxt "cpt-project-field"
+msgid "En groupe"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:490
+msgctxt "cpt-project-field"
+msgid "Titre du projet"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:500
+msgctxt "cpt-project-field"
+msgid "Type de projet"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:509
+msgctxt "cpt-project-field"
+msgid "Niveau"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:517
+msgctxt "cpt-project-field"
+msgid "Type de création"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:525
+msgctxt "cpt-project-field"
+msgid "Autres créateurs"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:533
+msgctxt "cpt-project-field"
+msgid "Image principale"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:536
+#: src/platform-shell/cpt/project/class-project-type.php:548
+#. translators: %1$s: Taille maximale pour Upload
+msgctxt "cpt-project-field"
+msgid "Formats d’images acceptés : JPEG, PNG et GIF de moins de %1$s."
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:545
+msgctxt "cpt-project-field"
+msgid "Galerie d’images"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:556
+msgctxt "cpt-project-field"
+msgid "Vidéos"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:558
+msgctxt "cpt-project-field"
+msgid ""
+"Tu peux ajouter une ou plusieurs vidéos à partir de YouTube ou de Vimeo. "
+"Entre les liens (URL) des vidéos séparés par des virgules."
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:562
+msgctxt "cpt-project-field"
+msgid "Description du projet"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:602
+msgctxt "cpt-project-field"
+msgid "Mots-clés"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:607
+msgctxt "cpt-project-field"
+msgid "Entre plusieurs mots-clés séparés par des virgules."
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:614
+msgctxt "cpt-project-field"
+msgid "Publication"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:615
+msgctxt "cpt-project-field"
+msgid ""
+"Publier : Ton projet sera publié et visible par tous les utilisateurs.<br/>\n"
+"\t\t\t\t\tMettre en attente : Ton projet ne sera visible que par toi.<br/>\n"
+"\t\t\t\t\t<br/>\n"
+"\t\t\t\t\t<span class=\"important\" ><strong>Important</strong> : Tu peux "
+"choisir l’option « En attente » à tout moment,\n"
+"\t\t\t\t\tmais si ton projet est inscrit à un ou des concours courants, il "
+"sera désinscrit automatiquement.</span>"
+msgstr ""
+
+#: src/platform-shell/cpt/class-cpt-helper.php:97
+#: src/platform-shell/cpt/contest/class-contest-type.php:493
+msgctxt "cpt-contest-field"
+msgid "Choisir une option"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:227
+msgctxt "cpt-contest-field"
+msgid "Prix et images des prix."
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:228
+msgctxt "cpt-contest-field"
+msgid ""
+"<br/>Informations supplémentaires : <br/> La largeur maximale de l’image du "
+"prix à l’affichage du concours est de 120 pixels.<br/><br/>"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:247
+msgctxt "cpt-contest-field"
+msgid "Jury et images du jury"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:270
+msgctxt "cpt-contest-field"
+msgid "Image du commanditaire"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:276
+msgctxt "cpt-contest-field"
+msgid "Admissibilité"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:284
+msgctxt "cpt-contest-field"
+msgid "Organisateur"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:292
+msgctxt "cpt-contest-field"
+msgid "Type de concours"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:300
+msgctxt "cpt-contest-field"
+msgid "Modalités de participation"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:320
+msgctxt "cpt-contest-field"
+msgid "Critères d’évaluation"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:341
+msgctxt "cpt-contest-field"
+msgid "Prix en vedette"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:347
+msgctxt "cpt-contest-field"
+msgid "Image du prix en vedette"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:355
+msgctxt "cpt-contest-field"
+msgid "Date d’ouverture"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:363
+msgctxt "cpt-contest-field"
+msgid "Date de fin"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:371
+msgctxt "cpt-contest-field"
+msgid "Date d’annonce des gagnants"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:382
+msgctxt "cpt-contest-field"
+msgid "Vidéos"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:383
+msgctxt "cpt-contest-field"
+msgid ""
+"Vous pouvez ajouter plusieurs vidéos à partir de YouTube ou Vimeo. Entrez "
+"les liens (URL) des vidéos séparés par des virgules."
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:395
+msgctxt "cpt-contest-field"
+msgid "Lien vers l’article sur les lauréats"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:402
+msgctxt "cpt-contest-field"
+msgid "Résumé"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-configs.php:40
+msgctxt "cpt-contests-labels-plural"
+msgid "Concours"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-configs.php:41
+msgctxt "cpt-contests-labels-singular"
+msgid "Concours"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-configs.php:42
+#: src/platform-shell/cpt/contest/class-contest-configs.php:43
+msgctxt "cpt-contests-labels"
+msgid "Concours"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-configs.php:44
+msgctxt "cpt-contests-labels"
+msgid "Ajouter"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-configs.php:45
+msgctxt "cpt-contests-labels"
+msgid "Ajouter un concours"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-configs.php:46
+msgctxt "cpt-contests-labels"
+msgid "Nouveau concours"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-configs.php:47
+msgctxt "cpt-contests-labels"
+msgid "Éditer une fiche concours"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-configs.php:48
+msgctxt "cpt-contests-labels"
+msgid "Voir les concours"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-configs.php:49
+msgctxt "cpt-contests-labels"
+msgid "Tous les concours"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-configs.php:50
+msgctxt "cpt-contests-labels"
+msgid "Chercher un concours"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-configs.php:51
+msgctxt "cpt-contests-labels"
+msgid "Concours parent"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-configs.php:52
+msgctxt "cpt-contests-labels"
+msgid "Concours parent :"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-configs.php:53
+msgctxt "cpt-contests-labels"
+msgid "Aucun concours."
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-configs.php:54
+msgctxt "cpt-contests-labels"
+msgid "Il n’y a aucun concours dans la corbeille."
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-metaboxes.php:67
+msgctxt "cpt-contest-metaboxes"
+msgid "Galerie d’images"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-metaboxes.php:68
+msgctxt "cpt-contest-metaboxes"
+msgid "Vidéo"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-metaboxes.php:69
+msgctxt "cpt-contest-metaboxes"
+msgid "Dates"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-metaboxes.php:70
+msgctxt "cpt-contest-metaboxes"
+msgid "Modalités"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-metaboxes.php:71
+msgctxt "cpt-contest-metaboxes"
+msgid "Prix et jury"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-metaboxes.php:72
+msgctxt "cpt-contest-metaboxes"
+msgid "Projets"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-metaboxes.php:111
+msgctxt "cpt-contest-metaboxes"
+msgid "Effacer l’image"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-metaboxes.php:112
+#: src/platform-shell/cpt/contest/class-contest-metaboxes.php:140
+#: src/platform-shell/cpt/contest/class-contest-metaboxes.php:201
+#: src/platform-shell/cpt/contest/class-contest-metaboxes.php:210
+#: src/platform-shell/cpt/contest/class-contest-metaboxes.php:258
+#: src/platform-shell/cpt/contest/class-contest-metaboxes.php:267
+msgctxt "cpt-contest-metaboxes"
+msgid "Effacer"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-metaboxes.php:140
+#: src/platform-shell/cpt/contest/class-contest-metaboxes.php:141
+#: src/platform-shell/cpt/contest/class-contest-metaboxes.php:201
+#: src/platform-shell/cpt/contest/class-contest-metaboxes.php:202
+#: src/platform-shell/cpt/contest/class-contest-metaboxes.php:258
+#: src/platform-shell/cpt/contest/class-contest-metaboxes.php:259
+msgctxt "cpt-contest-metaboxes"
+msgid "Ajouter une image"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-metaboxes.php:170
+msgctxt "cpt-contest-metaboxes"
+msgid ""
+"Veuillez cliquer sur les champs grisés suivants pour afficher le sélecteur "
+"de date."
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-metaboxes.php:172
+msgctxt "cpt-contest-metaboxes"
+msgid ""
+"Note : Celui-ci pourrait ne pas s’afficher correctement sur certaines "
+"plateformes (ex. : IOS)."
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-metaboxes.php:197
+msgctxt "cpt-contest-metaboxes"
+msgid "Image du commanditaire"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-metaboxes.php:246
+#: src/platform-shell/cpt/contest/class-contest-metaboxes.php:249
+msgctxt "cpt-contest-metaboxes"
+msgid "Prix vedette"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-metaboxes.php:256
+msgctxt "cpt-contest-metaboxes"
+msgid "Image du prix vedette"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-metaboxes.php:292
+msgctxt "cpt-contest-metaboxes"
+msgid "Projets inscrits"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:143
+msgctxt "cp-contest-description"
+msgid "Description."
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:149
+msgctxt "cpt-contests-slug"
+msgid "concours"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:180
+#: src/platform-shell/cpt/contest/class-contest-type.php:185
+msgctxt "cpt-contest-taxonomy"
+msgid "Mots-clés"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:182
+msgctxt "cpt-project-tags-taxonomy-slug"
+msgid "mots-cles-concours"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:354
+msgctxt "cpt-project-tags-taxonomy-slug"
+msgid "mots-cles-projet"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:210
+msgctxt "cpt-contest-metadata"
+msgid "Choisir un article"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:597
+msgctxt "contest-validation"
+msgid ""
+"<stong>Attention : </stong>  Le processus de validation a  détecté des "
+"erreurs dans le concours lors de la dernière opération de publication, de "
+"mise à jour ou d’enregistrement du brouillon."
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:608
+msgctxt "contest-validation"
+msgid ""
+"- <stong>Attention : </stong> Le concours est en mode brouillon ou attente "
+"de relecture et ne peut pas être vu par les utilisateurs du médialab"
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:611
+msgctxt "contest-validation"
+msgid ""
+"- Information : Le processus de validation n’a pas détecté d’erreurs dans "
+"le concours lors de la dernière opération de publication, de mise à jour ou "
+"d’enregistrement du brouillon."
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:614
+msgctxt "contest-validation"
+msgid ""
+"- Information : Le concours est publié et peut être vu par les utilisateurs "
+"du médialab."
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:616
+msgctxt "contest-validation"
+msgid ""
+"- <stong>Attention : </stong> Le concours est en mode brouillon ou attente "
+"de relecture et ne peut pas être vu par les utilisateurs du médialab."
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:635
+#. translators: %s: Label du champ requis
+msgctxt "contest-validation"
+msgid "Erreur : Il faut compléter la saisie de : \"%1$s\"."
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:668
+msgctxt "contest-validation"
+msgid "Erreur : Il faut compléter la saisie du titre."
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:679
+msgctxt "contest-validation"
+msgid "Erreur : Il faut compléter la saisie du texte descriptif."
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:690
+msgctxt "contest-validation"
+msgid "Erreur : Il faut entrer une image principale (image mise en avant)."
+msgstr ""
+
+#: src/platform-shell/cpt/contest/class-contest-type.php:739
+msgctxt "contest-cancel-publish"
+msgid ""
+"- <stong>Attention : </stong> Retour automatique à l’état brouillon : Les "
+"problèmes identifiés devront être corrigés avant que vous puissiez "
+"compléter la publication du concours."
+msgstr ""
+
+#: src/platform-shell/cpt/equipment/class-equipment-configs.php:32
+msgctxt "cpt-equipment-labels-plural"
+msgid "Équipement"
+msgstr ""
+
+#: src/platform-shell/cpt/equipment/class-equipment-configs.php:33
+msgctxt "cpt-equipment-labels-singular"
+msgid "Équipement"
+msgstr ""
+
+#: src/platform-shell/cpt/equipment/class-equipment-configs.php:34
+msgctxt "cpt-equipment-labels"
+msgid "Équipements"
+msgstr ""
+
+#: src/platform-shell/cpt/equipment/class-equipment-configs.php:35
+msgctxt "cpt-equipment-labels"
+msgid "Équipement"
+msgstr ""
+
+#: src/platform-shell/cpt/equipment/class-equipment-configs.php:36
+msgctxt "cpt-equipment-labels"
+msgid "Ajouter"
+msgstr ""
+
+#: src/platform-shell/cpt/equipment/class-equipment-configs.php:37
+msgctxt "cpt-equipment-labels"
+msgid "Ajouter un équipement"
+msgstr ""
+
+#: src/platform-shell/cpt/equipment/class-equipment-configs.php:38
+msgctxt "cpt-equipment-labels"
+msgid "Nouvel équipement"
+msgstr ""
+
+#: src/platform-shell/cpt/equipment/class-equipment-configs.php:39
+msgctxt "cpt-equipment-labels"
+msgid "Editer une fiche équipement"
+msgstr ""
+
+#: src/platform-shell/cpt/equipment/class-equipment-configs.php:40
+msgctxt "cpt-equipment-labels"
+msgid "Voir les équipements"
+msgstr ""
+
+#: src/platform-shell/cpt/equipment/class-equipment-configs.php:41
+msgctxt "cpt-equipment-labels"
+msgid "Tous les équipements"
+msgstr ""
+
+#: src/platform-shell/cpt/equipment/class-equipment-configs.php:42
+msgctxt "cpt-equipment-labels"
+msgid "Chercher un équipement"
+msgstr ""
+
+#: src/platform-shell/cpt/equipment/class-equipment-configs.php:43
+msgctxt "cpt-equipment-labels"
+msgid "Outil parent"
+msgstr ""
+
+#: src/platform-shell/cpt/equipment/class-equipment-configs.php:44
+msgctxt "cpt-equipment-labels"
+msgid "Outil parent :"
+msgstr ""
+
+#: src/platform-shell/cpt/equipment/class-equipment-configs.php:45
+msgctxt "cpt-equipment-labels"
+msgid "Aucun équipement."
+msgstr ""
+
+#: src/platform-shell/cpt/equipment/class-equipment-configs.php:46
+msgctxt "cpt-equipment-labels"
+msgid "Il n’y a aucun équipement dans la corbeille."
+msgstr ""
+
+#: src/platform-shell/cpt/equipment/class-equipment-type.php:64
+msgctxt "cpt-equipment-description"
+msgid "Description."
+msgstr ""
+
+#: src/platform-shell/cpt/equipment/class-equipment-type.php:71
+msgctxt "cpt-equipment-slug"
+msgid "equipements"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-configs.php:49
+msgctxt "cpt-project-labels-plural"
+msgid "Projets"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-configs.php:50
+msgctxt "cpt-project-labels-singular"
+msgid "Projet"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-configs.php:51
+msgctxt "cpt-project-labels"
+msgid "Projets"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-configs.php:52
+msgctxt "cpt-project-labels"
+msgid "Projet"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-configs.php:53
+msgctxt "cpt-project-labels"
+msgid "Ajouter"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-configs.php:54
+msgctxt "cpt-project-labels"
+msgid "Ajouter un projet"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-configs.php:55
+msgctxt "cpt-project-labels"
+msgid "Nouveau projet"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-configs.php:56
+msgctxt "cpt-project-labels"
+msgid "Éditer une fiche projet"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-configs.php:57
+msgctxt "cpt-project-labels"
+msgid "Voir les projets"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-configs.php:58
+msgctxt "cpt-project-labels"
+msgid "Tous les projets"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-configs.php:59
+msgctxt "cpt-project-labels"
+msgid "Chercher un projet"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-configs.php:60
+msgctxt "cpt-project-labels"
+msgid "Projet parent"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-configs.php:61
+msgctxt "cpt-project-labels"
+msgid "Projet parent :"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-configs.php:62
+msgctxt "cpt-project-labels"
+msgid "Aucun projet trouvé."
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-configs.php:63
+msgctxt "cpt-project-labels"
+msgid "Il n’y a aucun projet dans la corbeille."
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-metaboxes.php:39
+msgctxt "cpt-project-metaboxes"
+msgid "Informations sur le projet."
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-metaboxes.php:71
+msgctxt "cpt-project-metaboxes"
+msgid "Le projet ne contient pas de galerie d'image"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-metaboxes.php:94
+msgctxt "cpt-project-metaboxes"
+msgid "Notes importantes :"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-metaboxes.php:95
+msgctxt "cpt-project-metaboxes"
+msgid ""
+"- Seules quelques options peuvent être modifiés par les gestionnaires / "
+"administrateurs dans cet écran."
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-metaboxes.php:96
+msgctxt "cpt-project-metaboxes"
+msgid ""
+"- Pour mettre le projet en modération, vous pouvez le faire en publiant le "
+"projet avec la <strong>visibilité privé</strong>."
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-metaboxes.php:100
+msgctxt "cpt-project-metaboxes"
+msgid ""
+"Ce projet est actuellement en modération et ne peux être vu par les "
+"utilisateurs (mode visibilité : privé). <br />Seul les gestionnaires ou les "
+"administrateurs peuvent modifier le mode de visibilité."
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-metaboxes.php:107
+#. translators: %1$s: lien vers le formulaire de création
+msgctxt "cpt-project-metaboxes"
+msgid ""
+" Pour créer un projet avec tous les champs disponibles, veuillez plutôt "
+"utiliser le <a href=\"%1$s\">formulaire</a> de création de projet."
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-metaboxes.php:112
+msgctxt "cpt-project-metaboxes"
+msgid ""
+"Les données du projet peuvent être modifiées  en utilisant le bouton "
+"’Modifier le projet’ à partir de la page principale du projet."
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-taxonomy-category.php:42
+msgctxt "cpt-project-taxonomy-category-term-label"
+msgid "Audio"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-taxonomy-category.php:48
+msgctxt "cpt-project-taxonomy-category-term-label"
+msgid "Bande dessinée"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-taxonomy-category.php:54
+msgctxt "cpt-project-taxonomy-category-term-label"
+msgid "Dessin / Illustration"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-taxonomy-category.php:60
+msgctxt "cpt-project-taxonomy-category-term-label"
+msgid "Jeux vidéo"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-taxonomy-category.php:66
+msgctxt "cpt-project-taxonomy-category-term-label"
+msgid "Modélisation 3D"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-taxonomy-category.php:72
+msgctxt "cpt-project-taxonomy-category-term-label"
+msgid "Photographie"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-taxonomy-category.php:78
+msgctxt "cpt-project-taxonomy-category-term-label"
+msgid "Vidéo"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-taxonomy-category.php:84
+msgctxt "cpt-project-taxonomy-category-term-label"
+msgid "Autre"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-taxonomy-category.php:43
+msgctxt "cpt-project-taxonomy-category-term-description"
+msgid "Catégorie audio"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-taxonomy-category.php:49
+msgctxt "cpt-project-taxonomy-category-term-description"
+msgid "Catégorie bande dessinée"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-taxonomy-category.php:55
+msgctxt "cpt-project-taxonomy-category-term-description"
+msgid "Catégorie dessin"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-taxonomy-category.php:61
+msgctxt "cpt-project-taxonomy-category-term-description"
+msgid "Catégorie jeux vidéo"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-taxonomy-category.php:67
+msgctxt "cpt-project-taxonomy-category-term-description"
+msgid "Catégorie modélisation 3D"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-taxonomy-category.php:73
+msgctxt "cpt-project-taxonomy-category-term-description"
+msgid "Catégorie photographie"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-taxonomy-category.php:79
+msgctxt "cpt-project-taxonomy-category-term-description"
+msgid "Catégorie vidéo"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-taxonomy-category.php:85
+msgctxt "cpt-project-taxonomy-category-term-description"
+msgid "Catégorie autre"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-taxonomy-category.php:44
+msgctxt "cpt-project-taxonomy-category-term-slug"
+msgid "audio"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-taxonomy-category.php:50
+msgctxt "cpt-project-taxonomy-category-term-slug"
+msgid "bande-dessinee"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-taxonomy-category.php:56
+msgctxt "cpt-project-taxonomy-category-term-slug"
+msgid "dessin-illustration"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-taxonomy-category.php:62
+msgctxt "cpt-project-taxonomy-category-term-slug"
+msgid "jeux-video"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-taxonomy-category.php:68
+msgctxt "cpt-project-taxonomy-category-term-slug"
+msgid "modelisation-3d"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-taxonomy-category.php:74
+msgctxt "cpt-project-taxonomy-category-term-slug"
+msgid "photo"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-taxonomy-category.php:80
+msgctxt "cpt-project-taxonomy-category-term-slug"
+msgid "video"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-taxonomy-category.php:86
+msgctxt "cpt-project-taxonomy-category-term-slug"
+msgid "autre"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-taxonomy-category.php:104
+msgctxt "cpt-project-taxonomy-category-unknown-term"
+msgid "Catégorie inconnue"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:278
+#: src/platform-shell/cpt/project/class-project-type.php:321
+msgctxt "cpt-project-slug"
+msgid "projets"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:352
+msgctxt "cpt-project-taxonomy-label"
+msgid "Mots-clés"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:365
+msgctxt "cpt-project-taxonomy-label"
+msgid "Type de projet"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:367
+msgctxt "cpt-project-taxonomy-slug"
+msgid "type-projet"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:470
+msgctxt "cpt-project"
+msgid "Choisir un type"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:583
+msgctxt "pcpt-project-field"
+msgid "Processus de création"
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:761
+msgctxt "project-type"
+msgid "Ton projet a été modifié."
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:771
+msgctxt "project-type"
+msgid "Ton projet a été créé."
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:874
+msgctxt "project-type"
+msgid "Une erreur a été détectée lors du traitement du projet."
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:905
+msgctxt "project-type"
+msgid "Vous n’êtes pas autorisé à modifier ce projet."
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:1015
+msgctxt "project-type"
+msgid "Une erreur est survenue. Veuillez réessayer plus tard."
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:1125
+msgctxt "project-type"
+msgid "Une erreur a été détecté lors du traitement du projet."
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:1206
+msgctxt "project-type"
+msgid "Ton projet est déjà inscrit à ce concours."
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:1226
+msgctxt "project-type"
+msgid "Ton projet est maintenant inscrit au concours."
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:1233
+msgctxt "project-type"
+msgid "Une erreur est survenue."
+msgstr ""
+
+#: src/platform-shell/cpt/project/class-project-type.php:1242
+msgctxt "project-type"
+msgid "Erreur innatendue. Veuillez recharger la page et réessayer."
+msgstr ""
+
+#: src/platform-shell/cpt/tool/class-tool-configs.php:32
+msgctxt "cpt-tools-labels-plural"
+msgid "Outils numériques"
+msgstr ""
+
+#: src/platform-shell/cpt/tool/class-tool-configs.php:33
+msgctxt "cpt-tools-labels-singular"
+msgid "Outil numérique"
+msgstr ""
+
+#: src/platform-shell/cpt/tool/class-tool-configs.php:34
+msgctxt "cpt-tools-labels"
+msgid "Outils numériques"
+msgstr ""
+
+#: src/platform-shell/cpt/tool/class-tool-configs.php:35
+msgctxt "cpt-tools-labels"
+msgid "Outil numérique"
+msgstr ""
+
+#: src/platform-shell/cpt/tool/class-tool-configs.php:36
+msgctxt "cpt-tools-labels"
+msgid "Ajouter"
+msgstr ""
+
+#: src/platform-shell/cpt/tool/class-tool-configs.php:37
+msgctxt "cpt-tools-labels"
+msgid "Ajouter un outil numérique"
+msgstr ""
+
+#: src/platform-shell/cpt/tool/class-tool-configs.php:38
+msgctxt "cpt-tools-labels"
+msgid "Nouvel outil numérique"
+msgstr ""
+
+#: src/platform-shell/cpt/tool/class-tool-configs.php:39
+msgctxt "cpt-tools-labels"
+msgid "Éditer une fiche outil numérique"
+msgstr ""
+
+#: src/platform-shell/cpt/tool/class-tool-configs.php:40
+msgctxt "cpt-tools-labels"
+msgid "Voir les outils numériques"
+msgstr ""
+
+#: src/platform-shell/cpt/tool/class-tool-configs.php:41
+msgctxt "cpt-tools-labels"
+msgid "Tous les outils numériques"
+msgstr ""
+
+#: src/platform-shell/cpt/tool/class-tool-configs.php:42
+msgctxt "cpt-tools-labels"
+msgid "Chercher un outil numérique"
+msgstr ""
+
+#: src/platform-shell/cpt/tool/class-tool-configs.php:43
+msgctxt "cpt-tools-labels"
+msgid "Outil numérique parent"
+msgstr ""
+
+#: src/platform-shell/cpt/tool/class-tool-configs.php:44
+msgctxt "cpt-tools-labels"
+msgid "Outil numérique parent :"
+msgstr ""
+
+#: src/platform-shell/cpt/tool/class-tool-configs.php:45
+msgctxt "cpt-tools-labels"
+msgid "Aucun outils numériques."
+msgstr ""
+
+#: src/platform-shell/cpt/tool/class-tool-configs.php:46
+msgctxt "cpt-tools-labels"
+msgid "Il n’y a aucun outils numériques dans la corbeille."
+msgstr ""
+
+#: src/platform-shell/cpt/tool/class-tool-type.php:63
+msgctxt "cpt-tool-description"
+msgid "Description."
+msgstr ""
+
+#: src/platform-shell/cpt/tool/class-tool-type.php:69
+msgctxt "cpt-tool-slug"
+msgid "outils"
+msgstr ""
+
+#: src/platform-shell/fields/class-fields-helper.php:277
+#: src/platform-shell/fields/class-fields-helper.php:318
+msgctxt "fields-helper"
+msgid "Effacer"
+msgstr ""
+
+#: src/platform-shell/fields/class-fields-helper.php:289
+msgctxt "fields-helper"
+msgid "Choisir"
+msgstr ""
+
+#: src/platform-shell/fields/class-fields-helper.php:301
+#: src/platform-shell/fields/class-fields-helper.php:306
+msgctxt "fields-helper"
+msgid "Supprimer"
+msgstr ""
+
+#: src/platform-shell/fields/class-fields-helper.php:309
+msgctxt "fields-helper"
+msgid "Ajouter"
+msgstr ""
+
+#: src/platform-shell/fields/class-fields-helper.php:347
+msgctxt "invalid-field"
+msgid "Ce champ est d'un type non supporté."
+msgstr ""
+
+#: src/platform-shell/installation/class-required-menus-manager.php:160
+msgctxt "required-menus-name"
+msgid "Principal"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-menus-manager.php:161
+msgctxt "required-menus-name"
+msgid "Pied de page primaire"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-menus-manager.php:162
+msgctxt "required-menus-name"
+msgid "Pied de page secondaire"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-menus-manager.php:163
+msgctxt "required-menus-name"
+msgid "Liens des médias sociaux"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-menus-manager.php:164
+msgctxt "required-menus-name"
+msgid "Liens de l’utilisateur"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-menus-manager.php:165
+msgctxt "required-menus-name"
+msgid "Liens des partenaires"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-menus-manager.php:305
+msgctxt "required-menus-home-title"
+msgid "Accueil"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-menus-manager.php:361
+msgctxt "demo-menus-social-link-title"
+msgid "Exemple de logo de partenaire"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-menus-manager.php:380
+msgctxt "demo-menus-social-link-title"
+msgid "Facebook"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-menus-manager.php:390
+msgctxt "demo-menus-social-link-title"
+msgid "Instagram"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-menus-manager.php:400
+msgctxt "demo-menus-social-link-title"
+msgid "YouTube"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-pages-configs.php:100
+msgctxt "required-page-slug"
+msgid "profil"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-pages-configs.php:106
+msgctxt "required-page-slug"
+msgid "reglement-general"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-pages-configs.php:112
+msgctxt "required-page-slug"
+msgid "quoi-de-neuf"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-pages-configs.php:119
+msgctxt "required-page-slug"
+msgid "a-propos"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-pages-configs.php:124
+msgctxt "required-page-slug"
+msgid "plan-espace"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-pages-configs.php:129
+msgctxt "required-page-slug"
+msgid "personnel"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-pages-configs.php:134
+msgctxt "required-page-slug"
+msgid "profil-organisation"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-pages-configs.php:141
+msgctxt "required-page-slug"
+msgid "plan-du-site"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-pages-configs.php:146
+msgctxt "required-page-slug"
+msgid "netiquette"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-pages-configs.php:151
+msgctxt "required-page-slug"
+msgid "accessibilite"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-pages-configs.php:156
+msgctxt "required-page-slug"
+msgid "contact"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-pages-configs.php:172
+msgctxt "required-page-slug"
+msgid "creer-un-projet"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-pages-configs.php:178
+msgctxt "required-page-slug"
+msgid "modifier-le-projet"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-pages-configs.php:101
+msgctxt "required-page-title"
+msgid "Profil"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-pages-configs.php:107
+msgctxt "required-page-title"
+msgid "Règlement général"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-pages-configs.php:113
+msgctxt "required-page-title"
+msgid "Quoi de neuf?"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-pages-configs.php:120
+msgctxt "required-page-title"
+msgid "À propos"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-pages-configs.php:125
+msgctxt "required-page-title"
+msgid "Plan de l’espace"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-pages-configs.php:130
+msgctxt "required-page-title"
+msgid "Personnel"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-pages-configs.php:135
+msgctxt "required-page-title"
+msgid "Profil d’organisation"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-pages-configs.php:142
+msgctxt "required-page-title"
+msgid "Plan du site"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-pages-configs.php:147
+msgctxt "required-page-title"
+msgid "Nétiquette"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-pages-configs.php:152
+msgctxt "required-page-title"
+msgid "Accessibilité"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-pages-configs.php:157
+msgctxt "required-page-title"
+msgid "Contact"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-pages-configs.php:173
+msgctxt "required-page-title"
+msgid "Créer un projet"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-pages-configs.php:179
+msgctxt "required-page-title"
+msgid "Modifier le projet"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-widget-manager.php:145
+msgctxt "widget-project-sidebar"
+msgid "Barre latérale de la liste de projets"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-widget-manager.php:146
+msgctxt "widget-project-sidebar"
+msgid ""
+"Contenu préconfiguré pour le bon fonctionnement de la plateforme. Utilisé "
+"pour afficher le widget « Filtre des projets par catégories » dans la liste "
+"des projets."
+msgstr ""
+
+#: src/platform-shell/installation/class-required-widget-manager.php:157
+msgctxt "sidebar"
+msgid "Bannière des concours"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-widget-manager.php:158
+msgctxt "sidebar"
+msgid ""
+"Utilisé pour présenter la bannière des concours sur la page d’accueil en "
+"utilisant le widget « Image Widget ». L’extension « Image Widget » doit "
+"être installée et activée. Taille de l’image suggérée de 240 x 400 pixels."
+msgstr ""
+
+#: src/platform-shell/installation/class-required-widget-manager.php:169
+msgctxt "sidebar"
+msgid "Pied de page"
+msgstr ""
+
+#: src/platform-shell/installation/class-required-widget-manager.php:170
+msgctxt "sidebar"
+msgid ""
+"Contenu préconfiguré pour le bon fonctionnement de la plateforme. Utilisé "
+"pour afficher des liens dans le pied de page. "
+msgstr ""
+
+#: src/platform-shell/reporting/class-reporting-configs.php:35
+msgctxt "reporting-form-option"
+msgid "Contenu violent"
+msgstr ""
+
+#: src/platform-shell/reporting/class-reporting-configs.php:36
+msgctxt "reporting-form-option"
+msgid "Contenu sexuellement explicite ou pornographique"
+msgstr ""
+
+#: src/platform-shell/reporting/class-reporting-configs.php:37
+msgctxt "reporting-form-option"
+msgid "Contenu à caractère haineux ou dénigrant"
+msgstr ""
+
+#: src/platform-shell/reporting/class-reporting-configs.php:38
+msgctxt "reporting-form-option"
+msgid "Contenu comportant du matériel protégé par des droits d’auteur"
+msgstr ""
+
+#: src/platform-shell/reporting/class-reporting-configs.php:39
+msgctxt "reporting-form-option"
+msgid "Actes dangereux ou pernicieux"
+msgstr ""
+
+#: src/platform-shell/reporting/class-reporting-configs.php:40
+msgctxt "reporting-form-option"
+msgid "Actes d’intimidation ou de violence"
+msgstr ""
+
+#: src/platform-shell/reporting/class-reporting-configs.php:41
+msgctxt "reporting-form-option"
+msgid "Autre"
+msgstr ""
+
+#: src/platform-shell/reporting/class-reporting-configs.php:60
+msgctxt "reporting"
+msgid "Motif inconnu."
+msgstr ""
+
+#: src/platform-shell/reporting/class-reporting.php:108
+msgctxt "reporting"
+msgid ""
+"Une erreur est survenue. Veuillez communiquer avec les responsables de la "
+"plateforme."
+msgstr ""
+
+#: src/platform-shell/reporting/class-reporting.php:117
+msgctxt "reporting"
+msgid "projet"
+msgstr ""
+
+#: src/platform-shell/reporting/class-reporting.php:117
+msgctxt "reporting"
+msgid "profil"
+msgstr ""
+
+#: src/platform-shell/reporting/class-reporting.php:120
+#. translators: %1$s projet ou profil, %2$s destinataire.
+msgctxt "reporting"
+msgid "Un avis de contenu inapproprié pour le %1$s a été envoyé à %2$s."
+msgstr ""
+
+#: src/platform-shell/reporting/class-reporting.php:122
+msgctxt "reporting"
+msgid "Bonjour,"
+msgstr ""
+
+#: src/platform-shell/reporting/class-reporting.php:126
+#. translators: %1$s projet ou profil.
+msgctxt "reporting"
+msgid ""
+"Un avis concernant un %1$s a été envoyé pour la raison suivante : "
+"<b>%2$s</b>"
+msgstr ""
+
+#: src/platform-shell/reporting/class-reporting.php:137
+#. translators: %1$s projet ou profil.
+msgctxt "reporting"
+msgid "Détails du %1$s :"
+msgstr ""
+
+#: src/platform-shell/reporting/class-reporting.php:152
+#. translators: %1$s titre, %2$s url du projet.
+msgctxt "reporting"
+msgid "Titre : <a href=\"%2$s\" >%1$s</a>"
+msgstr ""
+
+#: src/platform-shell/reporting/class-reporting.php:154
+#. translators: %1$s prenom %2$s nom.
+msgctxt "reporting"
+msgid "Auteur du projet : %1$s %2$s"
+msgstr ""
+
+#: src/platform-shell/reporting/class-reporting.php:156
+#: src/platform-shell/reporting/class-reporting.php:166
+#. translators: %1$s auteur, %2$s url du profil.
+#. translators: %1$s identifiant, %2$s url du profil.
+msgctxt "reporting"
+msgid "Identifiant de l’usager : <a href=\"%2$s\" >%1$s</a>"
+msgstr ""
+
+#: src/platform-shell/reporting/class-reporting.php:164
+#. translators: %1$s prénom, %2$s nom.
+msgctxt "reporting"
+msgid "Nom : %1$s %2$s"
+msgstr ""
+
+#: src/platform-shell/reporting/class-reporting.php:176
+msgctxt "reporting"
+msgid "Merci. Ton avis au sujet d’un contenu inapproprié a bien été envoyé."
+msgstr ""
+
+#: src/platform-shell/restriction/class-restrictions.php:179
+msgctxt "admin-email"
+msgid ""
+"( Attention : votre courriel est défini comme étant celui de "
+"l’administrateur du site.)"
+msgstr ""
+
+#: src/platform-shell/restriction/class-restrictions.php:221
+#. translators: %1$s courriel.
+msgctxt "admin-email"
+msgid ""
+"(Attention : Un envoi de courriel à un utilisateur inconnu a été bloqué : "
+"%1$s.)"
+msgstr ""
+
+#: src/platform-shell/restriction/class-restrictions.php:233
+#. translators: %1$s Courriel identifiant de l'utilisateur.
+msgctxt "admin-email"
+msgid ""
+"(Attention : Le message suivant envoyé par WordPress au courriel %1$s a été "
+"bloqué.)"
+msgstr ""
+
+#: src/platform-shell/settings/class-plugin-settings.php:110
+msgctxt "list-activities"
+msgid "Activités de groupe."
+msgstr ""
+
+#: src/platform-shell/settings/class-settings-menu.php:64
+msgctxt "settings-slug"
+msgid "plateforme-reglages"
+msgstr ""
+
+#: src/platform-shell/settings/class-settings-menu.php:81
+msgctxt "settings-page-title"
+msgid "Réglages de la plateforme"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-main.php:37
+msgctxt "settings-page-title"
+msgid "Réglages principaux"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-seo-and-stats.php:38
+msgctxt "settings-page-title"
+msgid "Réglages Puce Google et données JSON-LD"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-seo-and-stats.php:39
+msgctxt "settings-page-title"
+msgid "Puce Google et données JSON-LD"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:48
+msgctxt "settings-page-title"
+msgid "Réglages des pages et sections"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:49
+msgctxt "settings-page-title"
+msgid "Pages et sections"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-social-sharing.php:35
+msgctxt "settings-page-title"
+msgid "Réglages des partages sur les médias sociaux"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-social-sharing.php:36
+msgctxt "settings-page-title"
+msgid "Partages sur les médias sociaux"
+msgstr ""
+
+#: src/platform-shell/settings/class-settings-menu.php:82
+msgctxt "settings-menu-title"
+msgid "Réglages de la plateforme"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-main.php:38
+msgctxt "settings-menu-title"
+msgid "Principaux"
+msgstr ""
+
+#: src/platform-shell/settings/class-settings-page.php:184
+#. translators: %1$s nom de l'option.
+msgctxt "settings"
+msgid ""
+"Vous n’êtes pas authorisé à modifier l’option [%1$s]. Veuillez communiquer "
+"avec un administrateur."
+msgstr ""
+
+#: src/platform-shell/settings/class-settings-page.php:187
+msgctxt "settings"
+msgid "Problème technique détecté"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-main.php:75
+msgctxt "settings"
+msgid "Configuration du courriel."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-main.php:94
+msgctxt "settings"
+msgid "Configuration de la gestion du profil de l’utisateur"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-main.php:99
+msgctxt "settings"
+msgid "Fonctionnalité Gravatar"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-main.php:100
+msgctxt "settings"
+msgid ""
+"Permettre l’utilisation de <a href=\"https://fr.gravatar.com/\" "
+"target=\"_blank\">Gravatar</a>."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-main.php:106
+msgctxt "settings"
+msgid "Configuration de l’intégration Shibboleth"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-main.php:111
+msgctxt "settings"
+msgid "Assignation d’un couriel fictif"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-main.php:112
+msgctxt "settings"
+msgid ""
+"Si l’annuaire contient des comptes sans courriels, l’assignation d’un "
+"courriel fictif permet de compléter la création automatique du compte dans "
+"WordPress (courriel obligatoire).<BR /><strong>Note importante : "
+"</strong><BR />- Les notifications courriels, pour le changement de mot de "
+"passe par exemple, ne vont pas fonctionner pour les comptes avec courriel "
+"fictif."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-main.php:125
+msgctxt "settings"
+msgid "Afficher le courriel réel dans le profil."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-main.php:126
+msgctxt "settings"
+msgid ""
+"Afficher le courriel.<BR /><BR /> Le courriel ne sera visible que par le "
+"propriétaire du compte."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-main.php:133
+msgctxt "settings"
+msgid ""
+"Le courriel réel provenant de l’annuaire est affiché si l’option « "
+"<strong>Afficher le courriel réel dans le profil</strong> » est activée.<BR "
+"/>- Le message est affiché lorsqu’il n’y a pas de courriel défini.<BR />- "
+"Le courriel est récupéré des attributs de profil Shibboleth (shibboleth "
+"headers).<BR />- Le courriel fictif n’est jamais affiché."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-seo-and-stats.php:55
+msgctxt "settings"
+msgid "Puce Google et données JSON-LD"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-seo-and-stats.php:71
+msgctxt "settings"
+msgid "JSON-LD"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-seo-and-stats.php:72
+msgctxt "settings"
+msgid ""
+"Bloc de données JSON-LD<br /> - Voir la <a "
+"href=\"https://json-ld.org\">documentation</a> du format json-ld.<br /> - "
+"Les données JSON-LD seront insérées automatiquement dans la page HTML.<br "
+"/> - Les données devraient être validées avec un validateur de JSON.<br />- "
+"Les données peuvent être en format minifié ou non.<br />- Attention : Ne "
+"pas insérer des retours de ligne manuellement."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-seo-and-stats.php:73
+msgctxt "settings"
+msgid "Entrer la donnée en format JSON-LD : { ... }"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-seo-and-stats.php:80
+msgctxt "settings"
+msgid "Google Tag manager - tracking code (Puce)"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-seo-and-stats.php:81
+msgctxt "settings"
+msgid ""
+"Google Tag manager (puce).<br /> - Voir la <a "
+"href=\"https://developers.google.com/tag-manager/devguide\">documentation</"
+"a> de Google Tag manager.<br /> - Attention : La validité de la donnée "
+"n’est pas vérifiée par le système."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-seo-and-stats.php:82
+msgctxt "settings"
+msgid "Ex. : <!-- Google Tag Manager --> [...] <!-- End Google Tag Manager -->"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-seo-and-stats.php:89
+msgctxt "settings"
+msgid "Google Tag manager - noscript"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-seo-and-stats.php:90
+msgctxt "settings"
+msgid ""
+"Google Tag manager à utiliser pour noscript. <br /> - Voir la <a "
+"href=\"https://developers.google.com/tag-manager/devguide\">documentation</"
+"a> de Google Tag manager.<br /> - Attention : La validité de la donnée "
+"n’est pas vérifiée par le système."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-seo-and-stats.php:91
+msgctxt "settings"
+msgid ""
+"Ex. : <!-- Google Tag Manager (noscript) --> [...] <!-- End Google Tag "
+"Manager (noscript) -->"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:65
+msgctxt "settings"
+msgid "Général"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:69
+msgctxt "settings"
+msgid "Page d’accueil"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:73
+msgctxt "settings"
+msgid "Concours"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:77
+msgctxt "settings"
+msgid "Activités"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:98
+msgctxt "settings"
+msgid "Configuration de l’affichage des menus principaux"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:103
+msgctxt "settings"
+msgid "Menu des liens des médias sociaux – affichage"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:104
+msgctxt "settings"
+msgid "Afficher le menu."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:110
+msgctxt "settings"
+msgid "Configuration de l’affichage du logo de l’organisation parent"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:115
+msgctxt "settings"
+msgid "Organisation parent"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:116
+msgctxt "settings"
+msgid "Afficher le logo"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:122
+msgctxt "settings"
+msgid "Organisation parent – image"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:123
+msgctxt "settings"
+msgid "Image du logo de l’organisation parent"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:127
+msgctxt "settings"
+msgid "Choisir une image (taille maximale de 300 x 40 pixels)"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:132
+msgctxt "settings"
+msgid "Organisation parent – texte alternatif"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:133
+msgctxt "settings"
+msgid "Texte alternatif du logo de l’organisation parent."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:140
+msgctxt "settings"
+msgid "Organisation parent – lien"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:141
+msgctxt "settings"
+msgid "Adresse URL du site de l’organisation parent."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:142
+msgctxt "settings"
+msgid "Entrer la donnée en format URL."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:148
+msgctxt "settings"
+msgid "Configuration de l’affichage du logo principal de la plateforme."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:153
+msgctxt "settings"
+msgid "Plateforme"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:154
+msgctxt "settings"
+msgid "Afficher le logo."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:160
+msgctxt "settings"
+msgid "Plateforme – image"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:161
+msgctxt "settings"
+msgid "Logo principal de la plateforme"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:165
+msgctxt "settings"
+msgid "Choisir une image (taille suggérée de 155 x 235 pixels)"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:170
+msgctxt "settings"
+msgid "Plateforme – texte alternatif"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:171
+msgctxt "settings"
+msgid "Texte alternatif du logo de la plateforme."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:178
+msgctxt "settings"
+msgid "Liste d’admissibilité"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:179
+msgctxt "settings"
+msgid ""
+"Liste de descriptions de groupes admissibles prédéfinie.<br/> - Cette liste "
+"sera présentée lors de la création de concours.<br/> - Format liste simple. "
+"Saisir une admissibilité par ligne. <br/>"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:188
+msgctxt "settings"
+msgid "Configuration de la boîte d’accueil."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:193
+msgctxt "settings"
+msgid "Boîte d’accueil – affichage"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:194
+msgctxt "settings"
+msgid "Afficher la boîte."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:200
+msgctxt "settings"
+msgid "Boîte d’accueil - titre "
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:201
+msgctxt "settings"
+msgid ""
+"Titre principal de la page<br/>- Le titre ne doit pas contenir des balises "
+"HTML."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:208
+msgctxt "settings"
+msgid ""
+"Configuration de la boîte des coordonnées et heures d’ouverture dans le "
+"pied de page"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:213
+msgctxt "settings"
+msgid "Boîte de coordonnées et heures d’ouverture"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:214
+msgctxt "settings"
+msgid "Afficher les coordonnées et heures d’ouverture"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:220
+msgctxt "settings"
+msgid "Boîte - Clé d’API pour Google Maps"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:221
+msgctxt "settings"
+msgid ""
+"Clé d’authentification pour Google Maps dans l’outil de génération d’image "
+"de fond pour la boîte."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:228
+msgctxt "settings"
+msgid ""
+"Boîte - Image de fond (affichée en arrière-plan des coordonnées et heures "
+"d’ouverture)"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:229
+msgctxt "settings"
+msgid ""
+"Image à utiliser en arrière plan de la boîte.<br/>- Choisir une image "
+"existante ou cliquer sur le bouton « <strong> Générer une image de fond "
+"</strong>» pour générer une image correspondant au lieu de votre "
+"médialab.<br/>- Taille prévue par la maquette : 1400x377 pixels."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:237
+msgctxt "settings"
+msgid "Choisir une image de fond"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:242
+msgctxt "settings"
+msgid "Adresse"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:243
+msgctxt "settings"
+msgid "L’adresse géographique. <br/>- 3 lignes maximum."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:250
+msgctxt "settings"
+msgid "Itinéraire"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:252
+#. translators: %1$s exemple url google map, %2$s exemple url openstreet map.
+msgctxt "settings"
+msgid ""
+"Adresse URL d’un service de localisation permettant d’afficher l’itinéraire "
+"vers le lieu physique.<br />- Ex. : <a href=\"%1$s\">Google Maps</a><br />- "
+"Ex. : <a href=\"%2$s\">OpenStreetMap</a>"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:259
+msgctxt "settings"
+msgid "Téléphone"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:260
+msgctxt "settings"
+msgid "Numéro de téléphone pour contact avec le public."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:261
+msgctxt "settings"
+msgid "555 555-5555 (format suggéré)"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:267
+msgctxt "settings"
+msgid "Heures d’ouverture"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:268
+msgctxt "settings"
+msgid "Heures d’ouverture du lieu physique. <br/> - 8 lignes maximum."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:275
+msgctxt "settings"
+msgid "Configurations de la boîte des logos de partenaires dans le pied de page."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:280
+msgctxt "settings"
+msgid "Boîte des logos de partenaires"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:281
+msgctxt "settings"
+msgid "Afficher la boîte contenant les logos des partenaires"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:289
+msgctxt "settings"
+msgid "Configuration des concours."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:294
+msgctxt "settings"
+msgid "Liste des organisateurs"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:295
+msgctxt "settings"
+msgid ""
+"Liste des organisateurs prédéfinie.<br/> - Cette liste sera présentée lors "
+"de la création de concours.<br/> - Format liste simple. Saisir un "
+"organisateur par ligne."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:302
+msgctxt "settings"
+msgid "Liste des types de concours"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:303
+msgctxt "settings"
+msgid ""
+"Liste de types de concours prédéfinie (titre et icône).<br/> - Cette liste "
+"sera présentée lors de la création de concours.<br/> - Format JSON (premier "
+"niveau = array, deuxième niveau = objet) <br/> - Utiliser la liste des "
+"icônes de FontAwesome : http://fontawesome.io/icons/"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:312
+msgctxt "settings"
+msgid "Configuration des activités."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:317
+msgctxt "settings"
+msgid "Activités de groupe"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:318
+msgctxt "settings"
+msgid "Afficher le bouton de lien vers les activités de groupe."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:324
+msgctxt "settings"
+msgid "Libellé du bouton"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:325
+msgctxt "settings"
+msgid "Libellé du bouton."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:332
+msgctxt "settings"
+msgid "URL des activitées de groupe"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:333
+msgctxt "settings"
+msgid "Lien vers les pages d’activités de groupe"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-social-sharing.php:76
+msgctxt "settings"
+msgid ""
+"Pour le bon fonctionnement du partage sur Facebook, une extension "
+"complémentaire doit être utilisée pour la génération des métadonnées Open "
+"Graph (<a target=\"_blank\" "
+"href=\"https://kb.yoast.com/kb/getting-open-graph-for-your-articles/\">"
+"Exemple avec l’extension Yoast</a>). Le site doit être visible sur internet "
+"afin de permettre à Facebook de récupérer les métadonnées."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-social-sharing.php:81
+msgctxt "settings"
+msgid "Script Tag"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-social-sharing.php:82
+msgctxt "settings"
+msgid ""
+"Code JavaScript pour compléter l’intégration Facebook.<br /> - Compte "
+"développeur Facebook requis pour la génération du script tag.<br /> - "
+"<strong>Ne pas inclure les balises &#x3C;script&#x3E;</strong>, seulement "
+"le code javascript.<br /> - Vérifier et modifier le code de langue au "
+"besoin dans l’url connect.facebook.net/<strong>en_US</strong>/sdk.js "
+"(<strong>fr_CA</strong> par exemple).<br /> - L’extension Yoast, ou "
+"solution équivalente, est requis pour la génération des métadonnées Open "
+"Graph."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-social-sharing.php:94
+msgctxt "settings"
+msgid "Modèle de description"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-social-sharing.php:95
+msgctxt "settings"
+msgid ""
+"Modèle de description utilisé lors du partage.<br /> - Message texte sans "
+"HTML.<br /> - Utiliser %post_title% pour insérer le titre du contenu "
+"partagé.<br /> - Valider avec documentation Facebook pour la longueur "
+"maximal permise (en incluant le titre s’il est utilisé)."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-social-sharing.php:105
+msgctxt "settings"
+msgid ""
+"Pour le bon fonctionnement du partage sur Twitter, une extension "
+"complémentaire doit être utilisée pour la génération des métadonnées "
+"Twitter Card (<a target=\"_blank\" "
+"href=\"https://kb.yoast.com/kb/setting-up-twitter-cards-in-wordpress-seo/\">"
+"Exemple avec l’extension Yoast</a>). Le site doit être visible sur internet "
+"afin de permettre à Twitter de récupérer les métadonnées."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-social-sharing.php:110
+msgctxt "settings"
+msgid "Modèle du message"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-social-sharing.php:111
+msgctxt "settings"
+msgid ""
+"Modèle du message.<br /> - Message texte sans HTML.<br /> - Utiliser "
+"%post_title% pour insérer le titre du contenu partagé (préférablement "
+"<strong>après</strong> le message afin de couper le titre si le message est "
+"trop long).<br /> - L’url sera inséré automatiquement après le message.<br "
+"/> - Message court : la limite de 140 caractères de Twitter sera appliquée."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-social-sharing.php:121
+msgctxt "settings"
+msgid "Configuration du partage courriel"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-social-sharing.php:127
+msgctxt "settings"
+msgid "Modèle du message courriel"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-social-sharing.php:129
+#. translators: Les textes %post_title%, %post_url%, %site_url% à utiliser tel
+#. quels sans traduction.
+msgctxt "settings"
+msgid ""
+"Modèle du message utilisé lors du partage par courriel.<br /> - Message "
+"texte sans HTML.<br /> - Utiliser %post_title% pour insérer le titre du "
+"contenu partagé.<br /> - Utiliser %post_url% pour l’url du contenu "
+"partagé.<br /> - Utiliser %site_url% pour l’url du site.<br /> - Certains "
+"caractères pourraient poser problème. Valider avec plusieurs navigateurs / "
+"logiciels de courriel."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-main.php:54
+msgctxt "settings-page-tab"
+msgid "Contacts et notifications"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-main.php:58
+msgctxt "settings-page-tab"
+msgid "Gestion de compte et authentification"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-social-sharing.php:52
+msgctxt "settings-page-tab"
+msgid "Facebook"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-social-sharing.php:56
+msgctxt "settings-page-tab"
+msgid "Twitter"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-social-sharing.php:60
+msgctxt "settings-page-tab"
+msgid "Courriel"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-main.php:80
+msgctxt "settings-field-label"
+msgid "Courriel gestionnaire"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-main.php:132
+msgctxt "settings-field-label"
+msgid "Message à afficher pour courriel réel manquant."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-main.php:83
+#. translators: %1$s adresse courriel.
+msgctxt "settings-field-description"
+msgid ""
+"Courriel utilisé pour les contacts avec le public et recevoir les "
+"notifications de gestion du système.<BR /><strong>Notes importantes : "
+"</strong><BR />- Un seul courriel. Veuillez utiliser un groupe courriel ou "
+"une boîte de courriel commune si plusieurs personnes doivent avoir accès "
+"aux courriels.<BR />- L’adresse de messagerie (courriel administrateur) "
+"définie dans les réglages de WordPress (<strong>%1$s</strong>) sera "
+"utilisée par défaut pour certains processus, par exemple le signalement, si "
+"le courriel gestionnaire de la plateforme n’est pas défini. Cependant, le "
+"courriel administrateur ne sera pas présenté comme courriel de contact aux "
+"utilisateurs. Il est fortement recommandé de définir un courriel "
+"gestionnaire séparé à cette fin."
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-main.php:84
+msgctxt "settings-field-placeholder"
+msgid "courriel@"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-seo-and-stats.php:41
+msgctxt "settings-page-slug"
+msgid "reglages-puce-google-et-donnees-json-ld"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-site-sections.php:51
+msgctxt "settings-page-slug"
+msgid "reglages-pages-et-sections"
+msgstr ""
+
+#: src/platform-shell/settings/pages/class-settings-page-social-sharing.php:38
+msgctxt "settings-page-slug"
+msgid "reglages-partages-sociaux"
+msgstr ""
+
+#: src/platform-shell/shortcodes/class-shortcode-platform-shell-project-info-icons.php:73
+msgctxt "single-projects"
+msgid "Niveau facile"
+msgstr ""
+
+#: src/platform-shell/shortcodes/class-shortcode-platform-shell-project-info-icons.php:78
+msgctxt "single-projects"
+msgid "Niveau intermédiaire"
+msgstr ""
+
+#: src/platform-shell/shortcodes/class-shortcode-platform-shell-project-info-icons.php:83
+msgctxt "single-projects"
+msgid "Niveau difficile"
+msgstr ""
+
+#: src/platform-shell/shortcodes/class-shortcode-platform-shell-project-info-icons.php:104
+msgctxt "single-projects"
+msgid "Niveau inconnu"
+msgstr ""
+
+#: src/platform-shell/shortcodes/class-shortcode-platform-shell-project-info-icons.php:118
+msgctxt "single-projects"
+msgid "Création individuelle"
+msgstr ""
+
+#: src/platform-shell/shortcodes/class-shortcode-platform-shell-project-info-icons.php:122
+msgctxt "single-projects"
+msgid "Création en groupe"
+msgstr ""
+
+#: src/platform-shell/shortcodes/class-shortcode-platform-shell-project-info-icons.php:144
+msgctxt "single-projects"
+msgid "Type de création inconnu"
+msgstr ""
+
+#: src/platform-shell/shortcodes/class-shortcodes-manager.php:151
+msgctxt "shortcode-add-project"
+msgid "Tu dois être connecté pour faire cela."
+msgstr ""
+
+#: src/platform-shell/shortcodes/class-shortcodes-manager.php:159
+#. translators: %1$s: lien vers login
+msgctxt "shortcode-add-project"
+msgid "Tu peux le faire en <a href=\"%1$s\" >cliquant ici.</a> "
+msgstr ""
+
+#: src/platform-shell/shortcodes/class-shortcodes-manager.php:166
+msgctxt "shortcode-add-project"
+msgid "Lien invalide."
+msgstr ""
+
+#: src/platform-shell/shortcodes/class-shortcodes-manager.php:174
+#. translators: %1$s: lien
+msgctxt "shortcode-add-project"
+msgid "Tu peux créer un projet en <a href=\"%1$s\" >cliquant ici.</a> "
+msgstr ""
+
+#: src/platform-shell/shortcodes/class-shortcodes-manager.php:247
+msgctxt "shortcode-reporting"
+msgid "projet"
+msgstr ""
+
+#: src/platform-shell/shortcodes/class-shortcodes-manager.php:247
+msgctxt "shortcode-reporting"
+msgid "profil"
+msgstr ""
+
+#: src/platform-shell/shortcodes/class-shortcodes-manager.php:250
+#. translators: %1$s: post type
+msgctxt "template-reporting-fill-form"
+msgid "Signaler un %1$s inapproprié"
+msgstr ""
+
+#: src/platform-shell/templates/reporting/form-fill-reporting.php:17
+#: src/platform-shell/templates/reporting/form-fill-reporting.php:43
+msgctxt "template-reporting-fill-form"
+msgid "Signaler"
+msgstr ""
+
+#: src/platform-shell/templates/reporting/form-fill-reporting.php:42
+msgctxt "template-reporting-fill-form"
+msgid "Fermer"
+msgstr ""
+
+#: src/platform-shell/templates/fields/footer-background-field.php:25
+msgctxt "generate-background-warning"
+msgid ""
+"La fonctionnalité de recherche d'adresse a été désactivée. Veuillez entrer "
+"une clé d'API dans l’écran précédent afin de pouvoir utiliser l'outil de "
+"recherche."
+msgstr ""
+
+#: src/platform-shell/templates/fields/footer-background-field.php:29
+msgctxt "generate-background-search"
+msgid "Faire une recherche d’adresse"
+msgstr ""
+
+#: src/platform-shell/templates/fields/footer-background-field.php:30
+msgctxt "generate-background-fetch"
+msgid "Obtenir l’image"
+msgstr ""
+
+#: src/platform-shell/templates/fields/footer-background-field.php:36
+msgctxt "generate-background-instructions-1"
+msgid ""
+"Faites une recherche en tapant dans la boîte l’adresse du lieu de votre "
+"médialab."
+msgstr ""
+
+#: src/platform-shell/templates/fields/footer-background-field.php:41
+msgctxt "generate-background-instructions-2"
+msgid ""
+"Déplacer la carte de manière à positionner le marqueur orange à la droite "
+"de l’image sur l’emplacement du lieu de votre médialab."
+msgstr ""
+
+#: src/platform-shell/templates/fields/footer-background-field.php:46
+msgctxt "generate-background-instructions-3"
+msgid "Cliquez sur « Obtenir l’image » pour passer à l’étape suivante."
+msgstr ""
+
+#: src/platform-shell/templates/fields/footer-background-field.php:55
+msgctxt "loading"
+msgid "Génération de l’image de fond en cours; veuillez patienter."
+msgstr ""
+
+#: src/platform-shell/templates/fields/footer-background-field.php:60
+msgctxt "generate-background-select"
+msgid "Choisir l’image"
+msgstr ""
+
+#: src/platform-shell/templates/fields/footer-background-field.php:61
+msgctxt "generate-background-reset"
+msgid "Recommencer"
+msgstr ""
+
+#: src/platform-shell/templates/fields/footer-background-field.php:67
+msgctxt "generate-background-instructions-4"
+msgid "Cliquez sur « Choisir l’image » pour sélectionner l’image."
+msgstr ""
+
+#: src/platform-shell/templates/fields/footer-background-field.php:72
+msgctxt "generate-background-instructions-5"
+msgid "Cliquez sur « Recommencer » pour retourner à l’étape précédente."
+msgstr ""
+
+#: src/platform-shell/templates/profile/form-edit-profile.php:59
+msgctxt "template-profile-edit-form"
+msgid "Modification du profil"
+msgstr ""
+
+#: src/platform-shell/templates/profile/form-edit-profile.php:77
+#. translators: 1$s avatar miniature, %2$s: Lien vers le  gravatar pour
+#. l'inscription.
+msgctxt "template-profile-edit-form"
+msgid ""
+"Afin de pouvoir personnaliser ton avatar %1$s, tu dois créer un compte sur "
+"Gravatar en utilisant le même courriel que celui apparaissant dans ton "
+"profil. Tu peux le faire en <a href=\"%2$s\" target=\"_blank\">cliquant "
+"ici</a>."
+msgstr ""
+
+#: src/platform-shell/templates/profile/form-edit-profile.php:80
+msgctxt "template-profile-edit-form"
+msgid "Avatar"
+msgstr ""
+
+#: src/platform-shell/templates/profile/form-edit-profile.php:99
+msgctxt "template-profile-edit-form"
+msgid "Enregistrer"
+msgstr ""
+
+#: src/platform-shell/templates/profile/form-edit-profile.php:74
+#. translators: 1$s avatar miniature, %2$s: Lien vers le profil gravatar de
+#. l'utilisateur.
+msgctxt "template-profile-view"
+msgid ""
+"Pour modifier ton avatar %1$s, <a href=\"%2$s\" target=\"_blank\">clique "
+"ici</a>."
+msgstr ""
+
+#: src/platform-shell/templates/profile/view-profile.php:17
+msgctxt "template-profile-view"
+msgid ""
+"ERREUR_DEV : La variable profile_user doit être définie. Revalider appel du "
+"template."
+msgstr ""
+
+#: src/platform-shell/templates/profile/view-profile.php:68
+#. translators: %1$s: Prénom de l'utilisateur
+msgctxt "template-profile-view"
+msgid "Prénom : %1$s"
+msgstr ""
+
+#: src/platform-shell/templates/profile/view-profile.php:70
+#. translators: %1$s: Nom de l'utilisateur
+msgctxt "template-profile-view"
+msgid "Nom : %1$s"
+msgstr ""
+
+#: src/platform-shell/templates/profile/view-profile.php:73
+#. translators: %s: Courriel de l'utilisateur
+msgctxt "template-profile-view"
+msgid "Courriel : %1$s"
+msgstr ""
+
+#: src/platform-shell/templates/profile/view-profile.php:82
+msgctxt "template-profile-view"
+msgid "Modifier mon profil"
+msgstr ""
+
+#: src/platform-shell/templates/profile/view-profile.php:105
+msgctxt "template-profile-view"
+msgid "Mes projets"
+msgstr ""
+
+#: src/platform-shell/templates/profile/view-profile.php:106
+msgctxt "template-profile-view"
+msgid "Tous les projets"
+msgstr ""
+
+#: src/platform-shell/templates/profile/view-profile.php:107
+msgctxt "template-profile-view"
+msgid "Aucun projet disponible"
+msgstr ""
+
+#: src/platform-shell/widgets/class-project-category-filter.php:49
+msgctxt "widget-project-category-filter-description"
+msgid "Filtre des projets par catégories"
+msgstr ""
+
+#: src/platform-shell/widgets/class-project-category-filter.php:49
+msgctxt "widget-project-category-filter-description"
+msgid "Widget pour filtrer les projets par catégories"
+msgstr ""
+
+#: src/platform-shell/widgets/class-project-category-filter.php:69
+msgctxt "widget-project-category-filter-description"
+msgid "Types"
+msgstr ""
+
+#: src/platform-shell/widgets/class-project-category-filter.php:84
+msgctxt "widget-project-category-filter-description"
+msgid "Tous"
+msgstr ""
