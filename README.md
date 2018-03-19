@@ -61,7 +61,7 @@ Voir le [Wiki](https://github.com/medialab-banq/platform-shell-plugin/wiki) du p
 ## Licence
 
 De manière générale, les sources de l’extension sont distribuées sous GPL V2.
-Une copie de la licence est disponible au premier niveau du dossier de l’extension. Le fichier est nommé `LICENSE.txt` (en anglais).
+Une copie de la licence est disponible au premier niveau du dossier de l’extension. Le fichier est nommé `LICENSE` (en anglais).
 
 L’extension étant un assemblage de sources originales et de sources existantes ou modifiées, certaines parties des sources ont des licences différentes mais il a été vérifié qu’elles sont compatibles avec la licence principale. Voici les détails :
 
