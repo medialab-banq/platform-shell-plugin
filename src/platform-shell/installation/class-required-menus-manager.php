@@ -334,8 +334,7 @@ class Required_Menus_Manager {
 	private function platform_shell_menu_partners_links_add_content_callback( $menu_id ) {
 		// Ajouter logo partenaires du projet comme démo de la section en remerciement..
 		// Les utilisateurs de la plateforme pourront modifier pour leur propres partenaires / logos.
-		$this->add_partner_demo_logo( $menu_id, 'logo_pcnq.png', /* Ne pas mettre https, site non sécurisé. */ 'http://culturenumerique.mcc.gouv.qc.ca/' );
-		$this->add_partner_demo_logo( $menu_id, 'logo_banq.png', 'https://www.banq.qc.ca/' );
+		$this->add_partner_demo_logo( $menu_id, 'logo_qc.png', 'https://www.gouv.qc.ca/' );
 		$this->add_partner_demo_logo( $menu_id, 'logo_banc.png', 'https://www.bnc.ca/' );
 		$this->add_partner_demo_logo( $menu_id, 'logo_fondation_banq.png', 'https://fondation.banq.qc.ca/' );
 	}
