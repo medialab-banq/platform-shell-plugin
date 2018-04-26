@@ -144,7 +144,7 @@ class Reporting {
 				$project_post             = get_post( $params['pid'] );
 				$project_author_user_info = get_userdata( $project_post->post_author );
 
-				$user_profile_url = $this->profile->get_profile_url( $project->author_id );
+				$user_profile_url = $this->profile->get_profile_url( $project_post->author_id );
 
 				$title     = $post->post_title;
 				$post_link = get_post_permalink( $post->ID );
