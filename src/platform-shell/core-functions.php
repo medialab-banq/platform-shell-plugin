@@ -119,6 +119,8 @@ function platform_shell_filter_media( $where ) {
 	// phpcs:ignore WordPress --La valeur POST est utilisée pour filtrer les résultats. L'utilisation du nonce n'est pas nécessaire ici.
 	$action = isset( $_POST['action'] ) ? sanitize_text_field( $_POST['action'] ) : null;
 
+	// Quick Fix.
+	require_once(ABSPATH . 'wp-admin/includes/screen.php');
 	$current_screen = ( is_admin() ) ? get_current_screen() : null;
 
 	if (
