@@ -28,7 +28,8 @@ Extension WordPress permettant de créer une plateforme de médialab collaborati
 * Version initiale.
 
 = 1.0.1 =
--* Corrections de problèmes mineurs.
--* - Erreur script lors du signalement de projet cause blocage de l'affichage.
--* - Accès Apparence / Personnaliser cause erreur php.
--* - Restriction courriel incorrecte du courriel gestionnaire.
+* Corrections de problèmes mineurs.
+    * Erreur script lors du signalement de projet cause blocage de l'affichage.
+    * Accès Apparence / Personnaliser cause erreur php.
+    * Restriction courriel incorrecte du courriel gestionnaire.
+	* Ajout temporaire du dossier vendor (enlève ignore rule) + correction pour prochaine mise à jour et permettre utilisation du .zip d'un release.

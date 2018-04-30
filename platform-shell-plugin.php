@@ -167,6 +167,8 @@ $update_checker = Puc_v4_Factory::buildUpdateChecker(
 	__FILE__,
 	'platform-shell-plugin'
 );
+// Voir https://github.com/YahnisElsts/plugin-update-checker/issues/201
+update_checker->getVcsApi()->enableReleaseAssets();
 
 require $base_plugin_path . 'vendor/autoload.php';
 require $plugin_path . '/src/lib/autoloader/class-autoloader.php'; /* doc. Utilisation autoloader custom plutôt que celui de composer. */

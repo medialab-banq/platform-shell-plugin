@@ -5,7 +5,6 @@ node_modules/
 *.sql
 *.tar.gz
 *.zip
-/vendor/
 .buildpath
 .project
 .settings/
