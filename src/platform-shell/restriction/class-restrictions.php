@@ -155,6 +155,7 @@ class Restrictions {
 		$admin_email = get_option( 'admin_email' );
 		$to_admin    = ( $to == $admin_email );
 		$to_manager  = ( $to == $this->plugin_settings->get_option( 'platform_shell_option_contact_manager_email_adress', 'platform-shell-settings-main-contacts-and-notifications', '' ) );
+
 		// todo : is admin and have account (email pourrait être celui de  l'admin mais sans account).
 		$user = get_user_by( 'email', $to );
 		if ( false == $user && isset( $this->send_email_change_mail_user_info ) ) {
@@ -182,10 +183,7 @@ class Restrictions {
 			$block_message = false;
 
 			// todo : ajouter commentaires explicatif.
-			if ( ! isset( $user_id ) && ! $to_admin && ! $to_manager ) {
-				// Cas louche. Pas d'utilisateur connu retrouvé.
-				$block_message = true;
-			} else {
+			if ( ! ($to_admin || $to_manager) ) {
 				// todo_refactoring_specifications_inconnues : pourrait ajouter && role mediala user (si plus tard il y avait ajout de compte shibboleth avec rôle gestionnaire?).
 				if ( isset( $user_id ) && get_user_meta( $user_id, 'shibboleth_account' ) ) {
 					/* Indice sur environnement? */
