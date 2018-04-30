@@ -16,7 +16,7 @@
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: platform-shell-plugin
  * Domain Path: /languages
- * Version: 1.0.0
+ * Version: 1.0.1
  *
  * @wordpress-plugin
  * Platform-shell-plugin is free software: you can redistribute it and/or modify
@@ -40,7 +40,7 @@ if ( ! defined( 'WPINC' ) ) {
 use DI\ContainerBuilder;
 
 // BootStraping.
-$plugin_version        = '1.0.0';
+$plugin_version        = '1.0.1';
 $base_plugin_path      = realpath( plugin_dir_path( __FILE__ ) ) . DIRECTORY_SEPARATOR;
 $plugin_url            = plugin_dir_url( __FILE__ );
 $plugin_path           = untrailingslashit( plugin_dir_path( __FILE__ ) );

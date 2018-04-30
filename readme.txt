@@ -2,8 +2,8 @@
 Contributors: Bibliothèque et Archives nationales du Québec (BAnQ)
 Tags: medialab
 Requires at least: 4.9.4
-Tested up to: 4.9.4
-Stable tag: 1.0.0
+Tested up to: 4.9.5
+Stable tag: 1.0.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,3 +26,7 @@ Extension WordPress permettant de créer une plateforme de médialab collaborati
 
 = 1.0.0 =
 * Version initiale.
+
+= 1.0.1 =
+* - Correction pour permettre association de bandeau par id pour les pages.
+* - Inclusion du plugin 1.0.1 pour l'assistant d'installation.
