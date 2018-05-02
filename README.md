@@ -82,3 +82,4 @@ Voir le [Wiki](https://github.com/medialab-banq/platform-shell-plugin/wiki) du p
 ## Remerciements
 
 Ce projet s’inscrit dans le contexte de la mise en œuvre d’une mesure du [Plan culturel numérique du Québec](http://culturenumerique.mcc.gouv.qc.ca/), en collaboration avec la [Banque nationale](https://www.bnc.ca) et la [Fondation de BAnQ](https://fondation.banq.qc.ca/).
+
